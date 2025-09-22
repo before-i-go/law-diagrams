@@ -56,53 +56,53 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 2.9 Lines 1801-1900
   - [x] 2.10 Lines 1901-2000
 
-- [ ] 3. Analyze Lines 2001-3000 (Citizenship Provisions)
-  - [ ] 3.1 Lines 2001-2100
-  - [ ] 3.2 Lines 2101-2200
-  - [ ] 3.3 Lines 2201-2300
-  - [ ] 3.4 Lines 2301-2400
-  - [ ] 3.5 Lines 2401-2500
-  - [ ] 3.6 Lines 2501-2600
-  - [ ] 3.7 Lines 2601-2700
-  - [ ] 3.8 Lines 2701-2800
-  - [ ] 3.9 Lines 2801-2900
-  - [ ] 3.10 Lines 2901-3000
+- [x] 3. Analyze Lines 2001-3000 (Citizenship Provisions)
+  - [x] 3.1 Lines 2001-2100
+  - [x] 3.2 Lines 2101-2200
+  - [x] 3.3 Lines 2201-2300
+  - [x] 3.4 Lines 2301-2400
+  - [x] 3.5 Lines 2401-2500
+  - [x] 3.6 Lines 2501-2600
+  - [x] 3.7 Lines 2601-2700
+  - [x] 3.8 Lines 2701-2800
+  - [x] 3.9 Lines 2801-2900
+  - [x] 3.10 Lines 2901-3000
 
-- [ ] 4. Analyze Lines 3001-4000 (Fundamental Rights - Part I)
-  - [ ] 4.1 Lines 3001-3100
-  - [ ] 4.2 Lines 3101-3200
-  - [ ] 4.3 Lines 3201-3300
-  - [ ] 4.4 Lines 3301-3400
-  - [ ] 4.5 Lines 3401-3500
-  - [ ] 4.6 Lines 3501-3600
-  - [ ] 4.7 Lines 3601-3700
-  - [ ] 4.8 Lines 3701-3800
-  - [ ] 4.9 Lines 3801-3900
-  - [ ] 4.10 Lines 3901-4000
+- [x] 4. Analyze Lines 3001-4000 (Fundamental Rights - Part I)
+  - [x] 4.1 Lines 3001-3100
+  - [x] 4.2 Lines 3101-3200
+  - [x] 4.3 Lines 3201-3300
+  - [x] 4.4 Lines 3301-3400
+  - [x] 4.5 Lines 3401-3500
+  - [x] 4.6 Lines 3501-3600
+  - [x] 4.7 Lines 3601-3700
+  - [x] 4.8 Lines 3701-3800
+  - [x] 4.9 Lines 3801-3900
+  - [x] 4.10 Lines 3901-4000
 
-- [ ] 5. Analyze Lines 4001-5000 (Fundamental Rights - Part II)
-  - [ ] 5.1 Lines 4001-4100
-  - [ ] 5.2 Lines 4101-4200
-  - [ ] 5.3 Lines 4201-4300
-  - [ ] 5.4 Lines 4301-4400
-  - [ ] 5.5 Lines 4401-4500
-  - [ ] 5.6 Lines 4501-4600
-  - [ ] 5.7 Lines 4601-4700
-  - [ ] 5.8 Lines 4701-4800
-  - [ ] 5.9 Lines 4801-4900
-  - [ ] 5.10 Lines 4901-5000
+- [x] 5. Analyze Lines 4001-5000 (Fundamental Rights - Part II)
+  - [x] 5.1 Lines 4001-4100
+  - [x] 5.2 Lines 4101-4200
+  - [x] 5.3 Lines 4201-4300
+  - [x] 5.4 Lines 4301-4400
+  - [x] 5.5 Lines 4401-4500
+  - [x] 5.6 Lines 4501-4600
+  - [x] 5.7 Lines 4601-4700
+  - [x] 5.8 Lines 4701-4800
+  - [x] 5.9 Lines 4801-4900
+  - [x] 5.10 Lines 4901-5000
 
-- [ ] 6. Analyze Lines 5001-6000 (Directive Principles of State Policy)
-  - [ ] 6.1 Lines 5001-5100
-  - [ ] 6.2 Lines 5101-5200
-  - [ ] 6.3 Lines 5201-5300
-  - [ ] 6.4 Lines 5301-5400
-  - [ ] 6.5 Lines 5401-5500
-  - [ ] 6.6 Lines 5501-5600
-  - [ ] 6.7 Lines 5601-5700
-  - [ ] 6.8 Lines 5701-5800
-  - [ ] 6.9 Lines 5801-5900
-  - [ ] 6.10 Lines 5901-6000
+- [x] 6. Analyze Lines 5001-6000 (Directive Principles of State Policy)
+  - [x] 6.1 Lines 5001-5100
+  - [x] 6.2 Lines 5101-5200
+  - [x] 6.3 Lines 5201-5300
+  - [x] 6.4 Lines 5301-5400
+  - [x] 6.5 Lines 5401-5500
+  - [x] 6.6 Lines 5501-5600
+  - [x] 6.7 Lines 5601-5700
+  - [x] 6.8 Lines 5701-5800
+  - [x] 6.9 Lines 5801-5900
+  - [x] 6.10 Lines 5901-6000
 
 - [ ] 7. Analyze Lines 6001-7000 (Fundamental Duties and Union Executive)
   - [ ] 7.1 Lines 6001-6100

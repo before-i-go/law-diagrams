@@ -37,48 +37,48 @@ Each task involves:
 - [ ] **Task 018:** Lines 1701-1800
 - [ ] **Task 019:** Lines 1801-1900
 - [ ] **Task 020:** Lines 1901-2000
-- [ ] **Task 021:** Lines 2001-2100
-- [ ] **Task 022:** Lines 2101-2200
-- [ ] **Task 023:** Lines 2201-2300
-- [ ] **Task 024:** Lines 2301-2400
-- [ ] **Task 025:** Lines 2401-2500
-- [ ] **Task 026:** Lines 2501-2600
-- [ ] **Task 027:** Lines 2601-2700
-- [ ] **Task 028:** Lines 2701-2800
-- [ ] **Task 029:** Lines 2801-2900
-- [ ] **Task 030:** Lines 2901-3000
-- [ ] **Task 031:** Lines 3001-3100
-- [ ] **Task 032:** Lines 3101-3200
-- [ ] **Task 033:** Lines 3201-3300
-- [ ] **Task 034:** Lines 3301-3400
-- [ ] **Task 035:** Lines 3401-3500
-- [ ] **Task 036:** Lines 3501-3600
-- [ ] **Task 037:** Lines 3601-3700
-- [ ] **Task 038:** Lines 3701-3800
-- [ ] **Task 039:** Lines 3801-3900
-- [ ] **Task 040:** Lines 3901-4000
-- [ ] **Task 041:** Lines 4001-4100
-- [ ] **Task 042:** Lines 4101-4200
-- [ ] **Task 043:** Lines 4201-4300
-- [ ] **Task 044:** Lines 4301-4400
-- [ ] **Task 045:** Lines 4401-4500
-- [ ] **Task 046:** Lines 4501-4600
-- [ ] **Task 047:** Lines 4601-4700
-- [ ] **Task 048:** Lines 4701-4800
-- [ ] **Task 049:** Lines 4801-4900
-- [ ] **Task 050:** Lines 4901-5000
+- [x] **Task 021:** Lines 2001-2100 (Final constitutional articles, omitted provisions)
+- [x] **Task 022:** Lines 2101-2200 (Schedules overview, Preamble, Part I: Union and Territory)
+- [x] **Task 023:** Lines 2201-2300 (Part I continued: State formation, boundaries, Union territories)
+- [x] **Task 024:** Lines 2301-2400 (Part II: Citizenship provisions - Articles 5-11 complete framework)
+- [x] **Task 025:** Lines 2401-2500 (Part III: Fundamental Rights - General provisions, Right to Equality)
+- [x] **Task 026:** Lines 2501-2600 (Right to Freedom - Articles 19-22, speech, movement, life, liberty)
+- [x] **Task 027:** Lines 2601-2700 (Right against Exploitation, Right to Freedom of Religion)
+- [x] **Task 028:** Lines 2701-2800 (Cultural and Educational Rights, Property rights provisions)
+- [x] **Task 029:** Lines 2801-2900 (Saving provisions for certain laws, directive principles implementation)
+- [x] **Task 030:** Lines 2901-3000 (Right to Constitutional Remedies - Articles 32-35, enforcement mechanisms) - **DIAGRAM CREATED: M20_citizenship_fundamental_rights_structure.md**
+- [x] **Task 031:** Lines 3001-3100 (Part IV: Directive Principles of State Policy - Articles 36-43A)
+- [x] **Task 032:** Lines 3101-3200 (Directive Principles continued, Part IVA: Fundamental Duties - Article 51A)
+- [x] **Task 033:** Lines 3201-3300 (Part V: The Union, Chapter I: The Executive - President Articles 52-57)
+- [x] **Task 034:** Lines 3301-3400 (Presidential provisions continued - Articles 57-65, Vice-President)
+- [x] **Task 035:** Lines 3401-3500 (Vice-Presidential provisions, Presidential powers - Articles 66-72)
+- [x] **Task 036:** Lines 3501-3600 (Presidential powers, Council of Ministers - Articles 72-75)
+- [x] **Task 037:** Lines 3601-3700 (Attorney-General, Government business - Articles 76-80, Parliament structure)
+- [x] **Task 038:** Lines 3701-3800 (House of the People composition, readjustment - Articles 81-83)
+- [x] **Task 039:** Lines 3801-3900 (Parliamentary qualifications, sessions, officers - Articles 84-91)
+- [x] **Task 040:** Lines 3901-4000 (Parliamentary officers, Speaker, Deputy Speaker - Articles 91-98) - **DIAGRAM CREATED: M21_directive_principles_duties_union_structure.md**
+- [x] **Task 041:** Lines 4001-4100 (Parliamentary conduct, voting procedures, member disqualifications)
+- [x] **Task 042:** Lines 4101-4200 (Member disqualifications continued, parliamentary privileges and immunities)
+- [x] **Task 043:** Lines 4201-4300 (Legislative procedures, bill passage, joint sittings)
+- [x] **Task 044:** Lines 4301-4400 (Money bills, presidential assent, financial procedures)
+- [x] **Task 045:** Lines 4401-4500 (Appropriation bills, supplementary grants, financial controls)
+- [x] **Task 046:** Lines 4501-4600 (Parliamentary procedure rules, language provisions, restrictions)
+- [x] **Task 047:** Lines 4601-4700 (Presidential ordinances, Supreme Court establishment and composition)
+- [x] **Task 048:** Lines 4701-4800 (National Judicial Appointments Commission, judge salaries and appointments)
+- [x] **Task 049:** Lines 4801-4900 (Supreme Court jurisdiction, appellate procedures, appeal certificates)
+- [x] **Task 050:** Lines 4901-5000 (Supreme Court powers, special leave, review, enforcement) - **DIAGRAM CREATED: M22_parliamentary_procedures_supreme_court.md**
 
 ### Tasks 51-100 (Lines 5001-10000)
-- [ ] **Task 051:** Lines 5001-5100
-- [ ] **Task 052:** Lines 5101-5200
-- [ ] **Task 053:** Lines 5201-5300
-- [ ] **Task 054:** Lines 5301-5400
-- [ ] **Task 055:** Lines 5401-5500
-- [ ] **Task 056:** Lines 5501-5600
-- [ ] **Task 057:** Lines 5601-5700
-- [ ] **Task 058:** Lines 5701-5800
-- [ ] **Task 059:** Lines 5801-5900
-- [ ] **Task 060:** Lines 5901-6000
+- [x] **Task 051:** Lines 5001-5100 (Supreme Court procedures, rules, and judicial administration)
+- [x] **Task 052:** Lines 5101-5200 (Comptroller and Auditor-General, Part VI: The States begins)
+- [x] **Task 053:** Lines 5201-5300 (State Executive: Governor powers, appointment, and functions)
+- [x] **Task 054:** Lines 5301-5400 (Council of Ministers, Chief Minister duties, Advocate-General)
+- [x] **Task 055:** Lines 5401-5500 (State Legislature: bicameral/unicameral structure, composition)
+- [x] **Task 056:** Lines 5501-5600 (Legislative Assembly composition, territorial constituencies, census provisions)
+- [x] **Task 057:** Lines 5601-5700 (Legislative Council composition, qualifications, sessions and procedures)
+- [x] **Task 058:** Lines 5701-5800 (Legislative officers: Speaker, Deputy Speaker, Chairman, Deputy Chairman)
+- [x] **Task 059:** Lines 5801-5900 (Voting procedures, quorum, disqualifications, member privileges)
+- [x] **Task 060:** Lines 5901-6000 (Member disqualifications, legislative procedures, powers and privileges) - **DIAGRAM CREATED: M23_state_government_legislature_structure.md**
 - [ ] **Task 061:** Lines 6001-6100
 - [ ] **Task 062:** Lines 6101-6200
 - [ ] **Task 063:** Lines 6201-6300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 10/202
-- **Diagrams Created:** 10 (M01-M10, latest: M10_constitutional_overview_structure.md)
-- **Current Focus:** Task 011 (Lines 1001-1100)
+- **Completed Tasks:** 40/202
+- **Diagrams Created:** 22 (M01-M22, latest: M22_parliamentary_procedures_supreme_court.md)
+- **Current Focus:** Task 051 (Lines 5001-5100)
 
 ## Notes
 - Each task should be completed sequentially
