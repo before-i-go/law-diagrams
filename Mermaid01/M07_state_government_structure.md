@@ -7,62 +7,79 @@ This diagram illustrates the structure and organization of State Governments as 
 
 ```mermaid
 graph TD
-    subgraph "Part VI: The States"
-        direction TD
-        
-        subgraph "General Provisions"
-            A1[Art 152: Definition]
-        end
-        
-        subgraph "State Executive - Governor"
-            B1[Art 153: Governors of States]
-            B2[Art 154: Executive Power of State]
-            B3[Art 155: Governor Appointment]
-            B4[Art 156: Term of Office]
-            B5[Art 157: Qualifications]
-            B6[Art 158: Office Conditions]
-            B7[Art 159: Oath/Affirmation]
-            B8[Art 160: Contingency Functions]
-            B9[Art 161: Pardoning Power]
-            B10[Art 162: Executive Power Extent]
-        end
-        
-        subgraph "Council of Ministers"
-            C1[Art 163: Aid & Advise Governor]
-            C2[Art 164: Minister Provisions]
-        end
-        
-        subgraph "Advocate-General"
-            D1[Art 165: State Advocate-General]
-        end
-        
-        subgraph "Government Business"
-            E1[Art 166: Business Conduct]
-            E2[Art 167: CM Duties to Governor]
-        end
-        
-        subgraph "State Legislature - General"
-            F1[Art 168: Legislature Constitution]
-            F2[Art 169: Legislative Council Creation/Abolition]
-            F3[Art 170: Assembly Composition]
-        end
+    %% State Government Foundation
+    SG[PART VI: THE STATES]
+    SG --> GeneralDef[General Definition]
+    
+    %% General Provisions
+    subgraph "Constitutional Definition"
+        GeneralDef --> A1[Art 152: Definition]
     end
-
-    A1 --> B1
-    B1 --> B2 --> B3 --> B4 --> B5
-    B5 --> B6 --> B7 --> B8 --> B9 --> B10
-    B10 --> C1 --> C2
-    C2 --> D1
-    D1 --> E1 --> E2
-    E2 --> F1 --> F2 --> F3
-
-    classDef general fill:#e1f5fe
-    classDef governor fill:#f3e5f5
-    classDef ministers fill:#e8f5e8
-    classDef legal fill:#fff3e0
-    classDef business fill:#f1f8e9
-    classDef legislature fill:#fce4ec
-
+    
+    %% State Executive Structure
+    A1 --> StateExecutive[State Executive Structure]
+    StateExecutive --> GovernorOffice[Governor's Office]
+    
+    %% Governor Framework - Mixed layout
+    subgraph "Governor Constitutional Role"
+        direction LR
+        GovernorOffice --> B1[Art 153:<br/>Governors of States] --> B2[Art 154:<br/>Executive Power<br/>of State] --> B3[Art 155:<br/>Governor<br/>Appointment]
+    end
+    
+    subgraph "Governor Terms & Conditions"
+        direction LR
+        B3 --> B4[Art 156:<br/>Term of Office] --> B5[Art 157:<br/>Qualifications] --> B6[Art 158:<br/>Office Conditions]
+    end
+    
+    subgraph "Governor Operations"
+        direction LR
+        B6 --> B7[Art 159:<br/>Oath/Affirmation] --> B8[Art 160:<br/>Contingency<br/>Functions]
+    end
+    
+    subgraph "Governor Powers"
+        direction LR
+        B8 --> B9[Art 161:<br/>Pardoning Power] --> B10[Art 162:<br/>Executive Power<br/>Extent]
+    end
+    
+    %% Council of Ministers
+    B10 --> Ministers[Council of Ministers]
+    subgraph "Ministerial Framework"
+        direction LR
+        Ministers --> C1[Art 163:<br/>Aid & Advise<br/>Governor] --> C2[Art 164:<br/>Minister<br/>Provisions]
+    end
+    
+    %% Legal Officer
+    C2 --> LegalOfficer[State Legal Officer]
+    subgraph "Legal Support"
+        LegalOfficer --> D1[Art 165:<br/>State Advocate-General]
+    end
+    
+    %% Government Business
+    D1 --> BusinessOperations[Government Business]
+    subgraph "Administrative Operations"
+        direction LR
+        BusinessOperations --> E1[Art 166:<br/>Business Conduct] --> E2[Art 167:<br/>CM Duties<br/>to Governor]
+    end
+    
+    %% State Legislature Framework
+    E2 --> StateLegislature[State Legislature Framework]
+    subgraph "Legislative Structure"
+        direction LR
+        StateLegislature --> F1[Art 168:<br/>Legislature<br/>Constitution] --> F2[Art 169:<br/>Legislative Council<br/>Creation/Abolition] --> F3[Art 170:<br/>Assembly<br/>Composition]
+    end
+    
+    %% Mobile-friendly styling
+    classDef partHeader fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px,font-weight:bold
+    classDef sectionHeader fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef general fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef governor fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef ministers fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef legal fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef business fill:#f1f8e9,stroke:#388e3c,stroke-width:2px
+    classDef legislature fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    
+    class SG partHeader
+    class GeneralDef,StateExecutive,GovernorOffice,Ministers,LegalOfficer,BusinessOperations,StateLegislature sectionHeader
     class A1 general
     class B1,B2,B3,B4,B5,B6,B7,B8,B9,B10 governor
     class C1,C2 ministers

@@ -8,106 +8,108 @@ Task 005 - Complete Executive Structure and Parliament Framework
 
 ```mermaid
 graph TD
-    subgraph "Union Executive Structure"
-        direction TD
-        
-        subgraph "Presidential Office"
-            A1[Art 61: Impeachment]
-            A2[Art 62: Election Timing]
-            A3[Art 72: Pardoning Power]
-            A4[Art 73: Executive Power Extent]
-        end
-        
-        subgraph "Vice-Presidential Office"
-            B1[Art 63: VP of India]
-            B2[Art 64: Rajya Sabha Chairman]
-            B3[Art 65: Acting President]
-            B4[Art 66: VP Election]
-            B5[Art 67: VP Term]
-            B6[Art 68: VP Election Timing]
-            B7[Art 69: VP Oath]
-            B8[Art 70: Presidential Functions]
-            B9[Art 71: Election Matters]
-        end
-        
-        subgraph "Council of Ministers"
-            C1[Art 74: Aid & Advise President]
-            C2[Art 75: Minister Provisions]
-        end
-        
-        subgraph "Legal Officer"
-            D1[Art 76: Attorney-General]
-        end
-        
-        subgraph "Government Business"
-            E1[Art 77: Business Conduct]
-            E2[Art 78: PM Duties to President]
-        end
+    %% Executive Structure Foundation
+    UES[UNION EXECUTIVE STRUCTURE]
+    UES --> PresidentialPowers[Presidential Powers]
+    
+    %% Presidential Powers - Horizontal flow
+    subgraph "Presidential Authority"
+        direction LR
+        PresidentialPowers --> A1[Art 61:<br/>Impeachment] --> A2[Art 62:<br/>Election Timing] --> A3[Art 72:<br/>Pardoning Power] --> A4[Art 73:<br/>Executive Power Extent]
     end
     
-    subgraph "Parliament Structure"
-        direction TD
-        
-        subgraph "Constitutional Framework"
-            F1[Art 79: Parliament Constitution]
-            F2[Art 80: Rajya Sabha Composition]
-            F3[Art 81: Lok Sabha Composition]
-            F4[Art 82: Census Readjustment]
-            F5[Art 83: House Duration]
-            F6[Art 84: Membership Qualification]
-            F7[Art 85: Sessions & Dissolution]
-            F8[Art 86: Presidential Address]
-            F9[Art 87: Special Address]
-            F10[Art 88: Minister Rights]
-        end
-        
-        subgraph "Rajya Sabha Officers"
-            G1[Art 89: Chairman & Deputy]
-            G2[Art 90: Vacation & Resignation]
-            G3[Art 91: Deputy Chairman Duties]
-            G4[Art 92: Removal Proceedings]
-        end
-        
-        subgraph "Lok Sabha Officers"
-            H1[Art 93: Speaker & Deputy]
-            H2[Art 94: Vacation Provisions]
-            H3[Art 95: Speaker Powers]
-        end
+    %% Vice-Presidential Framework - Mixed layout
+    A4 --> VPFramework[Vice-Presidential Framework]
+    subgraph "VP Constitutional Role"
+        direction LR
+        VPFramework --> B1[Art 63:<br/>VP of India] --> B2[Art 64:<br/>Rajya Sabha Chairman] --> B3[Art 65:<br/>Acting President]
     end
     
-    subgraph "Executive-Legislative Interface"
-        I1[Presidential Address to Parliament]
-        I2[Ministerial Participation]
-        I3[VP as Rajya Sabha Chairman]
-        I4[PM Reports to President]
+    subgraph "VP Electoral Process"
+        direction LR
+        B3 --> B4[Art 66:<br/>VP Election] --> B5[Art 67:<br/>VP Term] --> B6[Art 68:<br/>VP Election Timing]
     end
     
-    A1 --> A2 --> A3 --> A4
-    A4 --> B1
-    B1 --> B2 --> B3 --> B4 --> B5
-    B5 --> B6 --> B7 --> B8 --> B9
-    B9 --> C1 --> C2
-    C2 --> D1
-    D1 --> E1 --> E2
-    E2 --> F1
-    F1 --> F2 --> F3 --> F4 --> F5
-    F5 --> F6 --> F7 --> F8 --> F9 --> F10
-    F10 --> G1
-    G1 --> G2 --> G3 --> G4
-    G4 --> H1 --> H2 --> H3
-    H3 --> I1
-    I1 --> I2 --> I3 --> I4
+    subgraph "VP Operations"
+        direction LR
+        B6 --> B7[Art 69:<br/>VP Oath] --> B8[Art 70:<br/>Presidential Functions] --> B9[Art 71:<br/>Election Matters]
+    end
     
-    classDef president fill:#e1f5fe
-    classDef vp fill:#f3e5f5
-    classDef ministers fill:#e8f5e8
-    classDef legal fill:#fff3e0
-    classDef business fill:#f1f8e9
-    classDef parliament fill:#fce4ec
-    classDef rajya fill:#e3f2fd
-    classDef lok fill:#fff8e1
-    classDef interface fill:#e0f2f1
+    %% Council of Ministers - Compact section
+    B9 --> Ministers[Council of Ministers]
+    subgraph "Ministerial Framework"
+        direction LR
+        Ministers --> C1[Art 74:<br/>Aid & Advise President] --> C2[Art 75:<br/>Minister Provisions]
+    end
     
+    %% Legal and Business Framework
+    C2 --> Legal[Legal Officer]
+    subgraph "Legal Support"
+        Legal --> D1[Art 76:<br/>Attorney-General]
+    end
+    
+    D1 --> Business[Government Business]
+    subgraph "Business Operations"
+        direction LR
+        Business --> E1[Art 77:<br/>Business Conduct] --> E2[Art 78:<br/>PM Duties to President]
+    end
+    
+    %% Parliament Structure
+    E2 --> PS[PARLIAMENT STRUCTURE]
+    PS --> ParliamentFramework[Constitutional Framework]
+    
+    subgraph "Parliamentary Foundation"
+        direction LR
+        ParliamentFramework --> F1[Art 79:<br/>Parliament Constitution] --> F2[Art 80:<br/>Rajya Sabha Composition] --> F3[Art 81:<br/>Lok Sabha Composition]
+    end
+    
+    subgraph "Parliamentary Operations"
+        direction LR
+        F3 --> F4[Art 82:<br/>Census Readjustment] --> F5[Art 83:<br/>House Duration] --> F6[Art 84:<br/>Membership Qualification]
+    end
+    
+    subgraph "Parliamentary Sessions"
+        direction LR
+        F6 --> F7[Art 85:<br/>Sessions & Dissolution] --> F8[Art 86:<br/>Presidential Address] --> F9[Art 87:<br/>Special Address] --> F10[Art 88:<br/>Minister Rights]
+    end
+    
+    %% Parliamentary Officers
+    F10 --> RajyaOfficers[Rajya Sabha Officers]
+    subgraph "Upper House Leadership"
+        direction LR
+        RajyaOfficers --> G1[Art 89:<br/>Chairman & Deputy] --> G2[Art 90:<br/>Vacation & Resignation] --> G3[Art 91:<br/>Deputy Chairman Duties] --> G4[Art 92:<br/>Removal Proceedings]
+    end
+    
+    G4 --> LokOfficers[Lok Sabha Officers]
+    subgraph "Lower House Leadership"
+        direction LR
+        LokOfficers --> H1[Art 93:<br/>Speaker & Deputy] --> H2[Art 94:<br/>Vacation Provisions] --> H3[Art 95:<br/>Speaker Powers]
+    end
+    
+    %% Executive-Legislative Interface
+    H3 --> Interface[Executive-Legislative Interface]
+    subgraph "Constitutional Connections"
+        Interface --> I1[Presidential Address<br/>to Parliament]
+        Interface --> I2[Ministerial<br/>Participation]
+        I1 --> I3[VP as Rajya<br/>Sabha Chairman]
+        I2 --> I4[PM Reports<br/>to President]
+    end
+    
+    %% Mobile-friendly styling
+    classDef partHeader fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px,font-weight:bold
+    classDef sectionHeader fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef president fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef vp fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef ministers fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef legal fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef business fill:#f1f8e9,stroke:#388e3c,stroke-width:2px
+    classDef parliament fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    classDef rajya fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    classDef lok fill:#fff8e1,stroke:#f57f17,stroke-width:2px
+    classDef interface fill:#e0f2f1,stroke:#00695c,stroke-width:2px
+    
+    class UES,PS partHeader
+    class PresidentialPowers,VPFramework,Ministers,Legal,Business,ParliamentFramework,RajyaOfficers,LokOfficers,Interface sectionHeader
     class A1,A2,A3,A4 president
     class B1,B2,B3,B4,B5,B6,B7,B8,B9 vp
     class C1,C2 ministers

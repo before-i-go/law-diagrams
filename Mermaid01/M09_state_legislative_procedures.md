@@ -7,89 +7,96 @@ This diagram illustrates the legislative procedures in State Legislatures and th
 
 ```mermaid
 graph TD
-    subgraph "State Legislative Procedure"
-        direction TD
-        A1[Art 196: Bill Introduction & Passing]
-        A2[Art 197: Legislative Council Restrictions]
-        A3[Art 198: Money Bill Procedure]
-        A4[Art 199: Money Bill Definition]
-        A5[Art 200: Governor's Assent]
-        A6[Art 201: Bills Reserved for President]
+    %% State Legislative Procedures Foundation
+    SLP[STATE LEGISLATIVE PROCEDURES]
+    SLP --> LegislativeProcedure[Legislative Procedure]
+    
+    %% Legislative Process - Horizontal flow
+    subgraph "Bill Process Framework"
+        direction LR
+        LegislativeProcedure --> A1[Art 196:<br/>Bill Introduction<br/>& Passing] --> A2[Art 197:<br/>Legislative Council<br/>Restrictions] --> A3[Art 198:<br/>Money Bill<br/>Procedure]
     end
     
-    subgraph "State Financial Procedures"
-        direction TD
-        B1[Art 202: Annual Financial Statement]
-        B2[Art 203: Estimates Procedure]
-        B3[Art 204: Appropriation Bills]
-        B4[Art 205: Supplementary Grants]
-        B5[Art 206: Votes of Credit]
-        B6[Art 207: Financial Bill Provisions]
+    subgraph "Bill Completion"
+        direction LR
+        A3 --> A4[Art 199:<br/>Money Bill<br/>Definition] --> A5[Art 200:<br/>Governor's<br/>Assent] --> A6[Art 201:<br/>Bills Reserved<br/>for President]
     end
     
-    subgraph "General Legislative Procedures"
-        direction TD
-        C1[Art 208: Rules of Procedure]
-        C2[Art 209: Financial Business Regulation]
-        C3[Art 210: Legislature Language]
-        C4[Art 211: Discussion Restrictions]
-        C5[Art 212: Court Inquiry Bar]
+    %% Financial Procedures - Horizontal flow
+    A6 --> FinancialProcedures[State Financial Procedures]
+    subgraph "Budget Framework"
+        direction LR
+        FinancialProcedures --> B1[Art 202:<br/>Annual Financial<br/>Statement] --> B2[Art 203:<br/>Estimates<br/>Procedure] --> B3[Art 204:<br/>Appropriation<br/>Bills]
     end
     
-    subgraph "Governor's Legislative Powers"
-        direction TD
-        D1[Art 213: Ordinance Power During Recess]
+    subgraph "Financial Controls"
+        direction LR
+        B3 --> B4[Art 205:<br/>Supplementary<br/>Grants] --> B5[Art 206:<br/>Votes of Credit] --> B6[Art 207:<br/>Financial Bill<br/>Provisions]
     end
     
-    subgraph "High Courts Framework"
-        direction TD
-        E1[Art 214: High Courts for States]
-        E2[Art 215: Courts of Record Status]
-        E3[Art 216: HC Constitution]
-        E4[Art 217: Judge Appointment & Conditions]
+    %% General Procedures
+    B6 --> GeneralProcedures[General Legislative Procedures]
+    subgraph "Operational Rules"
+        direction LR
+        GeneralProcedures --> C1[Art 208:<br/>Rules of<br/>Procedure] --> C2[Art 209:<br/>Financial Business<br/>Regulation] --> C3[Art 210:<br/>Legislature<br/>Language]
     end
     
+    subgraph "Procedural Limits"
+        direction LR
+        C3 --> C4[Art 211:<br/>Discussion<br/>Restrictions] --> C5[Art 212:<br/>Court Inquiry<br/>Bar]
+    end
+    
+    %% Governor's Powers
+    C5 --> GovernorPowers[Governor's Legislative Powers]
+    subgraph "Emergency Legislation"
+        GovernorPowers --> D1[Art 213:<br/>Ordinance Power<br/>During Recess]
+    end
+    
+    %% High Courts Introduction
+    D1 --> HighCourts[High Courts Framework]
+    subgraph "State Judiciary"
+        direction LR
+        HighCourts --> E1[Art 214:<br/>High Courts<br/>for States] --> E2[Art 215:<br/>Courts of Record<br/>Status]
+    end
+    
+    subgraph "Court Structure"
+        direction LR
+        E2 --> E3[Art 216:<br/>HC Constitution] --> E4[Art 217:<br/>Judge Appointment<br/>& Conditions]
+    end
+    
+    %% Process Flows - Vertical branching
+    E4 --> ProcessFlows[Process Flows]
     subgraph "Legislative Process Flow"
-        direction TD
-        F1[Bill Introduction]
-        F2[Assembly Consideration]
-        F3[Council Review (if bicameral)]
-        F4[Governor's Assent/Reserve]
-        F5[Presidential Consideration (if reserved)]
-        F6[Law Enactment]
+        ProcessFlows --> F1[Bill Introduction]
+        F1 --> F2[Assembly Consideration]
+        F1 --> F3[Council Review (if bicameral)]
+        F2 --> F4[Governor's Assent/Reserve]
+        F3 --> F4
+        F4 --> F5[Presidential Consideration (if reserved)]
+        F5 --> F6[Law Enactment]
     end
     
     subgraph "Financial Process Flow"
-        direction TD
-        G1[Budget Presentation]
-        G2[Legislative Approval]
-        G3[Appropriation]
-        G4[Supplementary Demands]
-        G5[Audit & Review]
+        ProcessFlows --> G1[Budget Presentation]
+        G1 --> G2[Legislative Approval]
+        G2 --> G3[Appropriation]
+        G3 --> G4[Supplementary Demands]
+        G4 --> G5[Audit & Review]
     end
-
-    A1 --> A2 --> A3 --> A4 --> A5 --> A6
-    A6 --> B1
-    B1 --> B2 --> B3 --> B4 --> B5 --> B6
-    B6 --> C1 --> C2 --> C3 --> C4 --> C5
-    C5 --> D1
-    D1 --> E1 --> E2 --> E3 --> E4
     
-    %% Process flows
-    A1 --> F1
-    F1 --> F2 --> F3 --> F4 --> F5 --> F6
+    %% Mobile-friendly styling
+    classDef partHeader fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px,font-weight:bold
+    classDef sectionHeader fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef legislative fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef financial fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef general fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef governor fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef courts fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    classDef process fill:#f1f8e9,stroke:#388e3c,stroke-width:2px
+    classDef finprocess fill:#fff8e1,stroke:#f57f17,stroke-width:2px
     
-    B1 --> G1
-    G1 --> G2 --> G3 --> G4 --> G5
-
-    classDef legislative fill:#e1f5fe
-    classDef financial fill:#f3e5f5
-    classDef general fill:#e8f5e8
-    classDef governor fill:#fff3e0
-    classDef courts fill:#fce4ec
-    classDef process fill:#f1f8e9
-    classDef finprocess fill:#fff8e1
-
+    class SLP partHeader
+    class LegislativeProcedure,FinancialProcedures,GeneralProcedures,GovernorPowers,HighCourts,ProcessFlows sectionHeader
     class A1,A2,A3,A4,A5,A6 legislative
     class B1,B2,B3,B4,B5,B6 financial
     class C1,C2,C3,C4,C5 general

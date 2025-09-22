@@ -7,87 +7,97 @@ This diagram illustrates the structure, composition, and procedures of State Leg
 
 ```mermaid
 graph TD
-    subgraph "State Legislature Composition"
-        direction TD
-        A1[Art 171: Legislative Council Composition]
-        A2[Art 172: Legislature Duration]
-        A3[Art 173: Membership Qualification]
-        A4[Art 174: Sessions & Dissolution]
-        A5[Art 175: Governor Address Rights]
-        A6[Art 176: Special Governor Address]
-        A7[Art 177: Minister & AG Rights]
+    %% State Legislature Foundation
+    SL[STATE LEGISLATURE STRUCTURE]
+    SL --> Composition[Legislature Composition]
+    
+    %% Composition Framework - Horizontal flow
+    subgraph "Constitutional Framework"
+        direction LR
+        Composition --> A1[Art 171:<br/>Legislative Council<br/>Composition] --> A2[Art 172:<br/>Legislature<br/>Duration] --> A3[Art 173:<br/>Membership<br/>Qualification]
     end
     
-    subgraph "Legislative Assembly Officers"
-        direction TD
-        B1[Art 178: Speaker & Deputy Speaker]
-        B2[Art 179: Vacation & Resignation]
-        B3[Art 180: Deputy Speaker Powers]
-        B4[Art 181: Removal Proceedings Bar]
+    subgraph "Legislative Sessions"
+        direction LR
+        A3 --> A4[Art 174:<br/>Sessions &<br/>Dissolution] --> A5[Art 175:<br/>Governor Address<br/>Rights] --> A6[Art 176:<br/>Special Governor<br/>Address]
     end
     
-    subgraph "Legislative Council Officers"
-        direction TD
-        C1[Art 182: Chairman & Deputy Chairman]
-        C2[Art 183: Vacation & Resignation]
-        C3[Art 184: Deputy Chairman Powers]
-        C4[Art 185: Removal Proceedings Bar]
+    subgraph "Participation Rights"
+        A6 --> A7[Art 177:<br/>Minister & AG<br/>Rights]
     end
     
-    subgraph "Officer Compensation & Support"
-        direction TD
-        D1[Art 186: Salaries & Allowances]
-        D2[Art 187: Legislature Secretariat]
+    %% Assembly Officers - Vertical branching
+    A7 --> AssemblyOfficers[Legislative Assembly Officers]
+    subgraph "Assembly Leadership"
+        AssemblyOfficers --> B1[Art 178: Speaker & Deputy Speaker]
+        B1 --> B2[Art 179: Vacation & Resignation]
+        B1 --> B3[Art 180: Deputy Speaker Powers]
+        B2 --> B4[Art 181: Removal Proceedings Bar]
+        B3 --> B4
     end
     
-    subgraph "Business Conduct"
-        direction TD
-        E1[Art 188: Member Oath/Affirmation]
-        E2[Art 189: Voting & Quorum]
+    %% Council Officers
+    B4 --> CouncilOfficers[Legislative Council Officers]
+    subgraph "Council Leadership"
+        CouncilOfficers --> C1[Art 182: Chairman & Deputy Chairman]
+        C1 --> C2[Art 183: Vacation & Resignation]
+        C1 --> C3[Art 184: Deputy Chairman Powers]
+        C2 --> C4[Art 185: Removal Proceedings Bar]
+        C3 --> C4
     end
     
-    subgraph "Member Disqualifications"
-        direction TD
-        F1[Art 190: Seat Vacation]
-        F2[Art 191: Disqualification Grounds]
-        F3[Art 192: Disqualification Decisions]
-        F4[Art 193: Unqualified Participation Penalty]
+    %% Officer Support
+    C4 --> OfficerSupport[Officer Support]
+    subgraph "Administrative Support"
+        direction LR
+        OfficerSupport --> D1[Art 186:<br/>Salaries &<br/>Allowances] --> D2[Art 187:<br/>Legislature<br/>Secretariat]
     end
     
-    subgraph "Powers & Privileges"
-        direction TD
-        G1[Art 194: House & Member Privileges]
-        G2[Art 195: Member Salaries & Allowances]
+    %% Business Conduct
+    D2 --> BusinessConduct[Business Conduct]
+    subgraph "Conduct Framework"
+        direction LR
+        BusinessConduct --> E1[Art 188:<br/>Member Oath/<br/>Affirmation] --> E2[Art 189:<br/>Voting & Quorum]
     end
     
-    subgraph "Legislative Procedure Framework"
-        direction TD
-        H1[Bill Introduction & Passing]
-        H2[Committee System]
-        H3[Question Hour & Discussions]
-        H4[Financial Business]
+    %% Member Standards - Vertical expansion
+    E2 --> MemberStandards[Member Standards]
+    subgraph "Disqualification Framework"
+        MemberStandards --> F1[Art 190: Seat Vacation]
+        MemberStandards --> F2[Art 191: Disqualification Grounds]
+        F1 --> F3[Art 192: Disqualification Decisions]
+        F2 --> F3
+        F3 --> F4[Art 193: Unqualified Participation Penalty]
     end
-
-    A1 --> A2 --> A3 --> A4 --> A5 --> A6 --> A7
-    A7 --> B1
-    B1 --> B2 --> B3 --> B4
-    B4 --> C1
-    C1 --> C2 --> C3 --> C4
-    C4 --> D1 --> D2
-    D2 --> E1 --> E2
-    E2 --> F1 --> F2 --> F3 --> F4
-    F4 --> G1 --> G2
-    G2 --> H1 --> H2 --> H3 --> H4
-
-    classDef composition fill:#e1f5fe
-    classDef assembly fill:#f3e5f5
-    classDef council fill:#e8f5e8
-    classDef support fill:#fff3e0
-    classDef business fill:#f1f8e9
-    classDef disqualification fill:#fce4ec
-    classDef privileges fill:#fff8e1
-    classDef procedure fill:#e0f2f1
-
+    
+    %% Powers & Privileges
+    F4 --> PowersPrivileges[Powers & Privileges]
+    subgraph "Member Protection"
+        direction LR
+        PowersPrivileges --> G1[Art 194:<br/>House & Member<br/>Privileges] --> G2[Art 195:<br/>Member Salaries<br/>& Allowances]
+    end
+    
+    %% Legislative Procedures
+    G2 --> ProcedureFramework[Legislative Procedure Framework]
+    subgraph "Operational Procedures"
+        direction LR
+        ProcedureFramework --> H1[Bill Introduction<br/>& Passing] --> H2[Committee<br/>System] --> H3[Question Hour<br/>& Discussions] --> H4[Financial<br/>Business]
+    end
+    
+    %% Mobile-friendly styling
+    classDef partHeader fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px,font-weight:bold
+    classDef sectionHeader fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef composition fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef assembly fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef council fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef support fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef business fill:#f1f8e9,stroke:#388e3c,stroke-width:2px
+    classDef disqualification fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    classDef privileges fill:#fff8e1,stroke:#f57f17,stroke-width:2px
+    classDef procedure fill:#e0f2f1,stroke:#00695c,stroke-width:2px
+    
+    class SL partHeader
+    class Composition,AssemblyOfficers,CouncilOfficers,OfficerSupport,BusinessConduct,MemberStandards,PowersPrivileges,ProcedureFramework sectionHeader
     class A1,A2,A3,A4,A5,A6,A7 composition
     class B1,B2,B3,B4 assembly
     class C1,C2,C3,C4 council
