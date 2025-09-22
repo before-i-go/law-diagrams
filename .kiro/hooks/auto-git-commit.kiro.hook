@@ -11,6 +11,6 @@
   },
   "then": {
     "type": "askAgent",
-    "prompt": "Execute the following git commands in sequence:\n1. git add .\n2. git commit -m \"progress at $(date +%Y%m%d%H)\"\n3. git push origin\n\nWait 5 seconds after the file save event before executing these commands."
+    "prompt": "Execute the following git commands in sequence:\n1. git add .\n2. git commit -m \"progress at $(date +%Y%m%d%H%M%S)\"\n3. git push origin"
   }
 }
