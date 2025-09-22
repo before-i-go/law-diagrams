@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Auto Git Commit",
+  "description": "Automatically performs git add, commit with timestamp, and push whenever any file is saved in the workspace",
+  "version": "1",
+  "when": {
+    "type": "userTriggered",
+    "patterns": [
+      "Mermaid01"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Execute the following git commands in sequence:\n1. git add .\n2. git commit -m \"progress at $(date +%Y%m%d%H)\"\n3. git push origin\n\nWait 5 seconds after the file save event before executing these commands."
+  }
+}
