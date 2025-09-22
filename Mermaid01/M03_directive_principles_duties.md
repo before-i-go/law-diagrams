@@ -8,53 +8,86 @@ Task 004 - Directive Principles, Fundamental Duties, and Union Executive Structu
 
 ```mermaid
 graph TD
-    A[Part IV: Directive Principles of State Policy] --> B[Social and Economic Justice]
-    A --> C[Administrative Principles]
-    A --> D[International Relations]
+    subgraph "Part IV: Directive Principles"
+        direction TD
+        
+        subgraph "Social & Economic Justice"
+            A1[Art 40: Village Panchayats]
+            A2[Art 41: Work & Education Rights]
+            A3[Art 42: Work Conditions]
+            A4[Art 43: Living Wage]
+            A5[Art 43A: Worker Participation]
+            A6[Art 43B: Cooperatives]
+            A7[Art 44: Uniform Civil Code]
+            A8[Art 45: Child Education]
+            A9[Art 46: SC/ST Welfare]
+            A10[Art 47: Public Health]
+        end
+        
+        subgraph "Administrative Principles"
+            B1[Art 48: Agriculture]
+            B2[Art 48A: Environment]
+            B3[Art 49: Monuments]
+            B4[Art 50: Judicial Independence]
+        end
+        
+        subgraph "International Relations"
+            C1[Art 51: Peace & Security]
+        end
+    end
     
-    B --> B1[Art 40: Village panchayats organization]
-    B --> B2[Art 41: Right to work and education]
-    B --> B3[Art 42: Just work conditions and maternity relief]
-    B --> B4[Art 43: Living wage for workers]
-    B --> B5[Art 43A: Workers participation in management]
-    B --> B6[Art 43B: Promotion of co-operative societies]
-    B --> B7[Art 44: Uniform civil code]
-    B --> B8[Art 45: Early childhood care and education]
-    B --> B9[Art 46: Educational and economic interests of SC/ST]
-    B --> B10[Art 47: Nutrition, living standards, public health]
+    subgraph "Part IVA: Fundamental Duties"
+        D1[Art 51A: Citizen Duties]
+    end
     
-    C --> C1[Art 48: Agriculture and animal husbandry]
-    C --> C2[Art 48A: Environment and wildlife protection]
-    C --> C3[Art 49: Protection of monuments]
-    C --> C4[Art 50: Separation of judiciary from executive]
+    subgraph "Part V: The Union Executive"
+        direction TD
+        
+        subgraph "Presidential Office"
+            E1[Art 52: President of India]
+            E2[Art 53: Executive Power]
+            E3[Art 54: Election Process]
+            E4[Art 55: Election Manner]
+            E5[Art 56: Term of Office]
+            E6[Art 57: Re-election]
+            E7[Art 58: Qualifications]
+            E8[Art 59: Office Conditions]
+            E9[Art 60: Oath]
+            E10[Art 61: Impeachment]
+        end
+        
+        subgraph "Vice-Presidential Office"
+            F1[Art 62: VP Election Timing]
+            F2[Art 63: VP of India]
+            F3[Art 64: Ex-officio Chairman]
+            F4[Art 65: Acting President]
+        end
+    end
     
-    D --> D1[Art 51: International peace and security]
+    A1 --> A2 --> A3 --> A4 --> A5
+    A5 --> A6 --> A7 --> A8 --> A9 --> A10
+    A10 --> B1
+    B1 --> B2 --> B3 --> B4
+    B4 --> C1
+    C1 --> D1
+    D1 --> E1
+    E1 --> E2 --> E3 --> E4 --> E5
+    E5 --> E6 --> E7 --> E8 --> E9 --> E10
+    E10 --> F1 --> F2 --> F3 --> F4
     
-    E[Part IVA: Fundamental Duties] --> E1[Art 51A: Fundamental duties of citizens]
+    classDef social fill:#e8f5e8
+    classDef admin fill:#fff3e0
+    classDef international fill:#e3f2fd
+    classDef duties fill:#fce4ec
+    classDef president fill:#e1f5fe
+    classDef vp fill:#f1f8e9
     
-    F[Part V: The Union] --> G[Chapter I: The Executive]
-    G --> H[The President and Vice-President]
-    
-    H --> H1[Art 52: The President of India]
-    H --> H2[Art 53: Executive power of the Union]
-    H --> H3[Art 54: Election of President]
-    H --> H4[Art 55: Manner of election of President]
-    H --> H5[Art 56: Term of office of President]
-    H --> H6[Art 57: Eligibility for re-election]
-    H --> H7[Art 58: Qualifications for election as President]
-    H --> H8[Art 59: Conditions of President's office]
-    H --> H9[Art 60: Oath or affirmation by President]
-    H --> H10[Art 61: Impeachment process]
-    H --> H11[Art 62: Vice-President provisions]
-    
-    style A fill:#f3e5f5
-    style B fill:#e8f5e8
-    style C fill:#fff3e0
-    style D fill:#e3f2fd
-    style E fill:#fce4ec
-    style F fill:#e1f5fe
-    style G fill:#f1f8e9
-    style H fill:#fff8e1
+    class A1,A2,A3,A4,A5,A6,A7,A8,A9,A10 social
+    class B1,B2,B3,B4 admin
+    class C1 international
+    class D1 duties
+    class E1,E2,E3,E4,E5,E6,E7,E8,E9,E10 president
+    class F1,F2,F3,F4 vp
 ```
 
 ## Analysis Notes

@@ -8,73 +8,115 @@ Task 005 - Complete Executive Structure and Parliament Framework
 
 ```mermaid
 graph TD
-    A[Union Executive] --> B[President]
-    A --> C[Vice-President]
-    A --> D[Council of Ministers]
-    A --> E[Attorney-General]
+    subgraph "Union Executive Structure"
+        direction TD
+        
+        subgraph "Presidential Office"
+            A1[Art 61: Impeachment]
+            A2[Art 62: Election Timing]
+            A3[Art 72: Pardoning Power]
+            A4[Art 73: Executive Power Extent]
+        end
+        
+        subgraph "Vice-Presidential Office"
+            B1[Art 63: VP of India]
+            B2[Art 64: Rajya Sabha Chairman]
+            B3[Art 65: Acting President]
+            B4[Art 66: VP Election]
+            B5[Art 67: VP Term]
+            B6[Art 68: VP Election Timing]
+            B7[Art 69: VP Oath]
+            B8[Art 70: Presidential Functions]
+            B9[Art 71: Election Matters]
+        end
+        
+        subgraph "Council of Ministers"
+            C1[Art 74: Aid & Advise President]
+            C2[Art 75: Minister Provisions]
+        end
+        
+        subgraph "Legal Officer"
+            D1[Art 76: Attorney-General]
+        end
+        
+        subgraph "Government Business"
+            E1[Art 77: Business Conduct]
+            E2[Art 78: PM Duties to President]
+        end
+    end
     
-    B --> B1[Art 61: Impeachment procedure]
-    B --> B2[Art 62: Election timing and casual vacancy]
-    B --> B3[Art 72: Power to grant pardons]
-    B --> B4[Art 73: Extent of executive power]
+    subgraph "Parliament Structure"
+        direction TD
+        
+        subgraph "Constitutional Framework"
+            F1[Art 79: Parliament Constitution]
+            F2[Art 80: Rajya Sabha Composition]
+            F3[Art 81: Lok Sabha Composition]
+            F4[Art 82: Census Readjustment]
+            F5[Art 83: House Duration]
+            F6[Art 84: Membership Qualification]
+            F7[Art 85: Sessions & Dissolution]
+            F8[Art 86: Presidential Address]
+            F9[Art 87: Special Address]
+            F10[Art 88: Minister Rights]
+        end
+        
+        subgraph "Rajya Sabha Officers"
+            G1[Art 89: Chairman & Deputy]
+            G2[Art 90: Vacation & Resignation]
+            G3[Art 91: Deputy Chairman Duties]
+            G4[Art 92: Removal Proceedings]
+        end
+        
+        subgraph "Lok Sabha Officers"
+            H1[Art 93: Speaker & Deputy]
+            H2[Art 94: Vacation Provisions]
+            H3[Art 95: Speaker Powers]
+        end
+    end
     
-    C --> C1[Art 63: The Vice-President of India]
-    C --> C2[Art 64: Ex officio Chairman of Rajya Sabha]
-    C --> C3[Art 65: Acting President functions]
-    C --> C4[Art 66: Election of Vice-President]
-    C --> C5[Art 67: Term of office]
-    C --> C6[Art 68: Election timing and casual vacancy]
-    C --> C7[Art 69: Oath or affirmation]
-    C --> C8[Art 70: Discharge of President's functions]
-    C --> C9[Art 71: Election matters]
+    subgraph "Executive-Legislative Interface"
+        I1[Presidential Address to Parliament]
+        I2[Ministerial Participation]
+        I3[VP as Rajya Sabha Chairman]
+        I4[PM Reports to President]
+    end
     
-    D --> D1[Art 74: Council to aid and advise President]
-    D --> D2[Art 75: Other provisions as to Ministers]
+    A1 --> A2 --> A3 --> A4
+    A4 --> B1
+    B1 --> B2 --> B3 --> B4 --> B5
+    B5 --> B6 --> B7 --> B8 --> B9
+    B9 --> C1 --> C2
+    C2 --> D1
+    D1 --> E1 --> E2
+    E2 --> F1
+    F1 --> F2 --> F3 --> F4 --> F5
+    F5 --> F6 --> F7 --> F8 --> F9 --> F10
+    F10 --> G1
+    G1 --> G2 --> G3 --> G4
+    G4 --> H1 --> H2 --> H3
+    H3 --> I1
+    I1 --> I2 --> I3 --> I4
     
-    E --> E1[Art 76: Attorney-General for India]
+    classDef president fill:#e1f5fe
+    classDef vp fill:#f3e5f5
+    classDef ministers fill:#e8f5e8
+    classDef legal fill:#fff3e0
+    classDef business fill:#f1f8e9
+    classDef parliament fill:#fce4ec
+    classDef rajya fill:#e3f2fd
+    classDef lok fill:#fff8e1
+    classDef interface fill:#e0f2f1
     
-    F[Government Business] --> F1[Art 77: Conduct of business]
-    F --> F2[Art 78: Prime Minister's duties to President]
-    
-    G[Parliament] --> H[General Structure]
-    G --> I[Officers of Parliament]
-    
-    H --> H1[Art 79: Constitution of Parliament]
-    H --> H2[Art 80: Composition of Council of States - Rajya Sabha]
-    H --> H3[Art 81: Composition of House of the People - Lok Sabha]
-    H --> H4[Art 82: Readjustment after census]
-    H --> H5[Art 83: Duration of Houses]
-    H --> H6[Art 84: Qualification for membership]
-    H --> H7[Art 85: Sessions, prorogation, dissolution]
-    H --> H8[Art 86: President's right to address]
-    H --> H9[Art 87: Special address by President]
-    H --> H10[Art 88: Ministers' and AG's rights in Houses]
-    
-    I --> I1[Rajya Sabha Officers]
-    I --> I2[Lok Sabha Officers]
-    
-    I1 --> I1A[Art 89: Chairman and Deputy Chairman]
-    I1 --> I1B[Art 90: Vacation and resignation]
-    I1 --> I1C[Art 91: Deputy Chairman duties]
-    I1 --> I1D[Art 92: Presiding during removal resolution]
-    
-    I2 --> I2A[Art 93: Speaker and Deputy Speaker]
-    I2 --> I2B[Art 94: Similar provisions as Rajya Sabha]
-    I2 --> I2C[Art 95: Speaker's powers and duties]
-    
-    J[Executive-Legislative Interface] --> J1[President addresses Parliament]
-    J --> J2[Ministers participate in Houses]
-    J --> J3[Vice-President chairs Rajya Sabha]
-    J --> J4[Prime Minister reports to President]
-    
-    style A fill:#e1f5fe
-    style B fill:#fff3e0
-    style C fill:#f3e5f5
-    style D fill:#e8f5e8
-    style G fill:#fce4ec
-    style H fill:#e3f2fd
-    style I fill:#fff8e1
-    style J fill:#f1f8e9
+    class A1,A2,A3,A4 president
+    class B1,B2,B3,B4,B5,B6,B7,B8,B9 vp
+    class C1,C2 ministers
+    class D1 legal
+    class E1,E2 business
+    class F1,F2,F3,F4,F5,F6,F7,F8,F9,F10 parliament
+    class G1,G2,G3,G4 rajya
+    class H1,H2,H3 lok
+    class I1,I2,I3,I4 interface
 ```
 
 ## Analysis Notes

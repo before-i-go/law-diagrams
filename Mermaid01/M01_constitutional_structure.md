@@ -8,48 +8,61 @@ Task 002 - Table of Contents Analysis
 
 ```mermaid
 graph TD
-    A[Constitution of India] --> B[Preamble]
-    A --> C[Part I: The Union and Its Territory]
-    A --> D[Part II: Citizenship]
-    A --> E[Part III: Fundamental Rights]
+    subgraph "Constitutional Foundation"
+        A[Constitution of India]
+        B[Preamble]
+    end
     
-    C --> C1[Art 1: Name and territory of the Union]
-    C --> C2[Art 2: Admission or establishment of new States]
-    C --> C3[Art 3: Formation of new States and alteration of areas, boundaries or names]
-    C --> C4[Art 4: Laws for amendment of First and Fourth Schedules]
+    subgraph "Part I: Union & Territory"
+        C1[Art 1: Name & Territory]
+        C2[Art 2: New States]
+        C3[Art 3: State Formation]
+        C4[Art 4: Schedule Amendment]
+    end
     
-    D --> D1[Art 5: Citizenship at commencement]
-    D --> D2[Art 6: Rights of migrants from Pakistan]
-    D --> D3[Art 7: Rights of migrants to Pakistan]
-    D --> D4[Art 8: Rights of persons of Indian origin abroad]
-    D --> D5[Art 9: Foreign citizenship exclusion]
-    D --> D6[Art 10: Continuance of citizenship rights]
-    D --> D7[Art 11: Parliament to regulate citizenship]
+    subgraph "Part II: Citizenship"
+        D1[Art 5: Citizenship at Commencement]
+        D2[Art 6: Pakistan Migrants Rights]
+        D3[Art 7: Migrants to Pakistan]
+        D4[Art 8: Indian Origin Abroad]
+        D5[Art 9: Foreign Citizenship Bar]
+        D6[Art 10: Rights Continuance]
+        D7[Art 11: Parliamentary Regulation]
+    end
     
-    E --> E1[General Provisions]
-    E --> E2[Right to Equality]
-    E --> E3[Right to Freedom]
+    subgraph "Part III: Fundamental Rights"
+        direction TD
+        E1[General Provisions<br/>Art 12-13]
+        E2[Right to Equality<br/>Art 14-18]
+        E3[Right to Freedom<br/>Art 19-22]
+        
+        E1 --> E2
+        E2 --> E3
+    end
     
-    E1 --> E1A[Art 12: Definition]
-    E1 --> E1B[Art 13: Laws inconsistent with fundamental rights]
+    A --> B
+    A --> C1
+    C1 --> C2
+    C2 --> C3
+    C3 --> C4
+    C4 --> D1
+    D1 --> D2
+    D2 --> D3
+    D3 --> D4
+    D4 --> D5
+    D5 --> D6
+    D6 --> D7
+    D7 --> E1
     
-    E2 --> E2A[Art 14: Equality before law]
-    E2 --> E2B[Art 15: Prohibition of discrimination]
-    E2 --> E2C[Art 16: Equality of opportunity in employment]
-    E2 --> E2D[Art 17: Abolition of Untouchability]
-    E2 --> E2E[Art 18: Abolition of titles]
+    classDef foundation fill:#e1f5fe
+    classDef territory fill:#e8f5e8
+    classDef citizenship fill:#fff3e0
+    classDef rights fill:#fce4ec
     
-    E3 --> E3A[Art 19: Freedom of speech, etc.]
-    E3 --> E3B[Art 20: Protection in conviction for offences]
-    E3 --> E3C[Art 21: Protection of life and personal liberty]
-    E3 --> E3D[Art 21A: Right to education]
-    E3 --> E3E[Art 22: Protection against arrest and detention]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
+    class A,B foundation
+    class C1,C2,C3,C4 territory
+    class D1,D2,D3,D4,D5,D6,D7 citizenship
+    class E1,E2,E3 rights
 ```
 
 ## Analysis Notes

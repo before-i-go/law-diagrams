@@ -22,11 +22,11 @@ Each task involves:
 - [x] **Task 003:** Lines 201-300 - Fundamental Rights structure, diagram created
 - [x] **Task 004:** Lines 301-400 - Directive Principles, Fundamental Duties, Union Executive, diagram created
 - [x] **Task 005:** Lines 401-500 - Executive and Parliament structure, diagram created
-- [ ] **Task 006:** Lines 501-600
-- [ ] **Task 007:** Lines 601-700
-- [ ] **Task 008:** Lines 701-800
-- [ ] **Task 009:** Lines 801-900
-- [ ] **Task 010:** Lines 901-1000
+- [x] **Task 006:** Lines 501-600 - Parliamentary procedures and legislative processes, diagram created
+- [x] **Task 007:** Lines 601-700 - Supreme Court structure, judicial system, and CAG provisions, diagram created
+- [x] **Task 008:** Lines 701-800 - State government structure (Part VI), diagram created
+- [x] **Task 009:** Lines 801-900 - State legislature structure and procedures, diagram created
+- [x] **Task 010:** Lines 901-1000 - State legislative procedures and High Courts introduction, diagram created
 - [ ] **Task 011:** Lines 1001-1100
 - [ ] **Task 012:** Lines 1101-1200
 - [ ] **Task 013:** Lines 1201-1300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 5/202
-- **Diagrams Created:** 4 (M01-M04)
-- **Current Focus:** Task 006 (Lines 501-600)
+- **Completed Tasks:** 10/202
+- **Diagrams Created:** 9 (M01-M09)
+- **Current Focus:** Task 011 (Lines 1001-1100)
 
 ## Notes
 - Each task should be completed sequentially

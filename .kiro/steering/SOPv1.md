@@ -73,6 +73,15 @@ Create diagrams when encountering:
 | Amendment Process | Flowchart | Procedural steps |
 | Federal Relations | Network Diagram | Inter-governmental relationships |
 
+### 3.3 Diagram Layout Requirements
+- **Preferred Direction:** Top-Down (TD) for vertical flow
+- **Layout Goal:** Box-like structure (balanced width x height ratio)
+- **Avoid:** Horizontal layouts (LR) that create wide, hard-to-read diagrams
+- **Subgraph Organization:** Use vertical subgraphs to create compact, readable sections
+- **Flow Direction:** `graph TD` (Top-Down) or `graph TB` (Top-Bottom) preferred over `graph LR` (Left-Right)
+- **Subgraph Arrangement:** Stack subgraphs vertically rather than horizontally
+- **Connection Strategy:** Minimize long horizontal connections between elements
+
 ---
 
 ## 4. File Management and Naming
@@ -145,8 +154,14 @@ Mermaid01/
 4. **Decide:** Determine if diagram creation is warranted
 5. **Create:** If yes, develop appropriate Mermaid diagram
 6. **Save:** Store diagram in `Mermaid01/` with proper naming
-7. **Track:** Update task completion status
+7. **Track:** **MANDATORY** - Update MermaidTasks.md task completion status
 8. **Document:** Record any notable findings or decisions
+
+### 7.2 Task Tracking Requirements
+- **MUST UPDATE** `MermaidTasks.md` at each task completion
+- Mark completed tasks with `[x]` and brief description
+- Update progress counters (completed tasks, diagrams created, current focus)
+- This is a **CRITICAL REQUIREMENT** - no task is complete without updating the tracking file
 
 ### 7.2 Decision Matrix for Diagram Creation
 - **High Priority:** Structural relationships, key processes, complex hierarchies
