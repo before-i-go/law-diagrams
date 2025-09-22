@@ -31,7 +31,6 @@ graph TD
     end
     
     subgraph "Part III: Fundamental Rights"
-        direction TD
         E1[General Provisions<br/>Art 12-13]
         E2[Right to Equality<br/>Art 14-18]
         E3[Right to Freedom<br/>Art 19-22]

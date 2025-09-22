@@ -17,14 +17,25 @@ graph TD
     direction TD E1[General Provisions]  # Invalid - direction mixed with node
 ```
 
+**❌ ALSO WRONG:**
+```mermaid
+graph TD
+    subgraph "Part III: Fundamental Rights"
+        direction TD  # Redundant when main graph is already TD
+        E1[General Provisions<br/>Art 12-13]
+    end
+```
+
 **✅ CORRECT:**
 ```mermaid
 graph TD
     subgraph "Part III: Fundamental Rights"
-        direction TD
         E1[General Provisions<br/>Art 12-13]
+        E2[Right to Equality<br/>Art 14-18]
     end
 ```
+
+**Note:** When main graph is `graph TD`, additional `direction TD` in subgraphs is redundant and can cause parse errors.
 
 ### 2. Node ID and Label Syntax
 
@@ -187,10 +198,13 @@ Before saving any Mermaid diagram, verify:
 E1[General Provisions  # ❌ Missing closing bracket
 E1[General Provisions] # ✅ Correct
 
-# Fix direction placement
-direction TD E1[General]  # ❌ Wrong placement
-subgraph "Title"
-    direction TD          # ✅ Correct placement
+# Fix redundant direction declarations
+subgraph "Part III"
+    direction TD       # ❌ Redundant when main graph is TD
+    E1[General]
+end
+
+subgraph "Part III"    # ✅ Clean subgraph without redundant direction
     E1[General]
 end
 
