@@ -164,7 +164,7 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 11.9 Lines 10801-10900
   - [x] 11.10 Lines 10901-11000
 
-- [-] 12. Analyze Lines 11001-12000 (Union Judiciary)
+- [x] 12. Analyze Lines 11001-12000 (Union Judiciary)
   - [x] 12.1 Lines 11001-11100
   - [x] 12.2 Lines 11101-11200
   - [x] 12.3 Lines 11201-11300
@@ -173,32 +173,32 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 12.6 Lines 11501-11600
   - [x] 12.7 Lines 11601-11700
   - [x] 12.8 Lines 11701-11800
-  - [-] 12.9 Lines 11801-11900
-  - [ ] 12.10 Lines 11901-12000
+  - [x] 12.9 Lines 11801-11900
+  - [x] 12.10 Lines 11901-12000
 
-- [ ] 13. Analyze Lines 12001-13000 (State Governments)
-  - [ ] 13.1 Lines 12001-12100
-  - [ ] 13.2 Lines 12101-12200
-  - [ ] 13.3 Lines 12201-12300
-  - [ ] 13.4 Lines 12301-12400
-  - [ ] 13.5 Lines 12401-12500
-  - [ ] 13.6 Lines 12501-12600
-  - [ ] 13.7 Lines 12601-12700
-  - [ ] 13.8 Lines 12701-12800
-  - [ ] 13.9 Lines 12801-12900
-  - [ ] 13.10 Lines 12901-13000
+- [x] 13. Analyze Lines 12001-13000 (State Governments)
+  - [x] 13.1 Lines 12001-12100
+  - [x] 13.2 Lines 12101-12200
+  - [x] 13.3 Lines 12201-12300
+  - [x] 13.4 Lines 12301-12400
+  - [x] 13.5 Lines 12401-12500
+  - [x] 13.6 Lines 12501-12600
+  - [x] 13.7 Lines 12601-12700
+  - [x] 13.8 Lines 12701-12800
+  - [x] 13.9 Lines 12801-12900
+  - [x] 13.10 Lines 12901-13000
 
-- [ ] 14. Analyze Lines 13001-14000 (State Executive and Legislative Powers)
-  - [ ] 14.1 Lines 13001-13100
-  - [ ] 14.2 Lines 13101-13200
-  - [ ] 14.3 Lines 13201-13300
-  - [ ] 14.4 Lines 13301-13400
-  - [ ] 14.5 Lines 13401-13500
-  - [ ] 14.6 Lines 13501-13600
-  - [ ] 14.7 Lines 13601-13700
-  - [ ] 14.8 Lines 13701-13800
-  - [ ] 14.9 Lines 13801-13900
-  - [ ] 14.10 Lines 13901-14000
+- [-] 14. Analyze Lines 13001-14000 (State Executive and Legislative Powers)
+  - [x] 14.1 Lines 13001-13100
+  - [x] 14.2 Lines 13101-13200
+  - [x] 14.3 Lines 13201-13300
+  - [x] 14.4 Lines 13301-13400
+  - [x] 14.5 Lines 13401-13500
+  - [x] 14.6 Lines 13501-13600
+  - [x] 14.7 Lines 13601-13700
+  - [x] 14.8 Lines 13701-13800
+  - [x] 14.9 Lines 13801-13900
+  - [-] 14.10 Lines 13901-14000
 
 - [ ] 15. Analyze Lines 14001-15000 (High Courts and Union Territories)
   - [ ] 15.1 Lines 14001-14100

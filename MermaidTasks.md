@@ -131,26 +131,26 @@ Each task involves:
 - [x] **Task 108:** Lines 10701-10800 (NCSC powers, National Commission for Scheduled Tribes)
 - [x] **Task 109:** Lines 10801-10900 (NCST powers, National Commission for Backward Classes)
 - [x] **Task 110:** Lines 10901-11000 (NCBC powers, SC/ST definitions, Part XVII Official Language) - **DIAGRAM CREATED: M27_constitutional_institutions_elections.md**
-- [ ] **Task 111:** Lines 11001-11100
-- [ ] **Task 112:** Lines 11101-11200
-- [ ] **Task 113:** Lines 11201-11300
-- [ ] **Task 114:** Lines 11301-11400
-- [ ] **Task 115:** Lines 11401-11500
-- [ ] **Task 116:** Lines 11501-11600
-- [ ] **Task 117:** Lines 11601-11700
-- [ ] **Task 118:** Lines 11701-11800
-- [ ] **Task 119:** Lines 11801-11900
-- [ ] **Task 120:** Lines 11901-12000
-- [ ] **Task 121:** Lines 12001-12100
-- [ ] **Task 122:** Lines 12101-12200
-- [ ] **Task 123:** Lines 12201-12300
-- [ ] **Task 124:** Lines 12301-12400
-- [ ] **Task 125:** Lines 12401-12500
-- [ ] **Task 126:** Lines 12501-12600
-- [ ] **Task 127:** Lines 12601-12700
-- [ ] **Task 128:** Lines 12701-12800
-- [ ] **Task 129:** Lines 12801-12900
-- [ ] **Task 130:** Lines 12901-13000
+- [x] **Task 111:** Lines 11001-11100 (Language provisions: Official language committees, regional languages)
+- [x] **Task 112:** Lines 11101-11200 (Language provisions continued, Emergency Provisions begin - Article 352)
+- [x] **Task 113:** Lines 11201-11300 (Emergency Provisions: Proclamation procedures, parliamentary approval)
+- [x] **Task 114:** Lines 11301-11400 (Emergency Provisions: President's Rule, constitutional machinery failure)
+- [x] **Task 115:** Lines 11401-11500 (Emergency Provisions: Legislative powers during emergencies)
+- [x] **Task 116:** Lines 11501-11600 (Emergency Provisions: Fundamental rights suspension during emergencies)
+- [x] **Task 117:** Lines 11601-11700 (Emergency Provisions: Financial emergency provisions)
+- [x] **Task 118:** Lines 11701-11800 (Miscellaneous provisions: Protection of officials, publication rights)
+- [x] **Task 119:** Lines 11801-11900 (Miscellaneous: Constitutional definitions section)
+- [x] **Task 120:** Lines 11901-12000 (Definitions continued: Constitutional terms and meanings) - **DIAGRAM CREATED: M28_emergency_provisions_structure.md**
+- [x] **Task 121:** Lines 12001-12100 (Constitutional definitions, GST provisions, Union territory definitions)
+- [x] **Task 122:** Lines 12101-12200 (Amendment procedures, constituent power, ratification requirements)
+- [x] **Task 123:** Lines 12201-12300 (Jammu & Kashmir special provisions, temporary provisions)
+- [x] **Task 124:** Lines 12301-12400 (Special provisions for Maharashtra, Gujarat, Nagaland)
+- [x] **Task 125:** Lines 12401-12500 (Nagaland special provisions continued, Assam, Manipur provisions)
+- [x] **Task 126:** Lines 12501-12600 (Andhra Pradesh & Telangana special provisions, Administrative Tribunal)
+- [x] **Task 127:** Lines 12601-12700 (Administrative Tribunal procedures, Sikkim special provisions)
+- [x] **Task 128:** Lines 12701-12800 (Sikkim provisions continued, Mizoram, Arunachal Pradesh provisions)
+- [x] **Task 129:** Lines 12801-12900 (Arunachal Pradesh, Goa, Karnataka special provisions)
+- [x] **Task 130:** Lines 12901-13000 (Continuance of existing laws, adaptation powers, transitional provisions) - **DIAGRAM CREATED: M29_special_state_provisions_structure.md**
 - [ ] **Task 131:** Lines 13001-13100
 - [ ] **Task 132:** Lines 13101-13200
 - [ ] **Task 133:** Lines 13201-13300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 90/202
-- **Diagrams Created:** 27 (M01-M27, latest: M27_constitutional_institutions_elections.md)
-- **Current Focus:** Task 111 (Lines 11001-11100)
+- **Completed Tasks:** 110/202
+- **Diagrams Created:** 29 (M01-M29, latest: M29_special_state_provisions_structure.md)
+- **Current Focus:** Task 131 (Lines 13001-13100)
 
 ## Notes
 - Each task should be completed sequentially
