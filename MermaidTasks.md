@@ -79,36 +79,36 @@ Each task involves:
 - [x] **Task 058:** Lines 5701-5800 (Legislative officers: Speaker, Deputy Speaker, Chairman, Deputy Chairman)
 - [x] **Task 059:** Lines 5801-5900 (Voting procedures, quorum, disqualifications, member privileges)
 - [x] **Task 060:** Lines 5901-6000 (Member disqualifications, legislative procedures, powers and privileges) - **DIAGRAM CREATED: M23_state_government_legislature_structure.md**
-- [ ] **Task 061:** Lines 6001-6100
-- [ ] **Task 062:** Lines 6101-6200
-- [ ] **Task 063:** Lines 6201-6300
-- [ ] **Task 064:** Lines 6301-6400
-- [ ] **Task 065:** Lines 6401-6500
-- [ ] **Task 066:** Lines 6501-6600
-- [ ] **Task 067:** Lines 6601-6700
-- [ ] **Task 068:** Lines 6701-6800
-- [ ] **Task 069:** Lines 6801-6900
-- [ ] **Task 070:** Lines 6901-7000
-- [ ] **Task 071:** Lines 7001-7100
-- [ ] **Task 072:** Lines 7101-7200
-- [ ] **Task 073:** Lines 7201-7300
-- [ ] **Task 074:** Lines 7301-7400
-- [ ] **Task 075:** Lines 7401-7500
-- [ ] **Task 076:** Lines 7501-7600
-- [ ] **Task 077:** Lines 7601-7700
-- [ ] **Task 078:** Lines 7701-7800
-- [ ] **Task 079:** Lines 7801-7900
-- [ ] **Task 080:** Lines 7901-8000
-- [ ] **Task 081:** Lines 8001-8100
-- [ ] **Task 082:** Lines 8101-8200
-- [ ] **Task 083:** Lines 8201-8300
-- [ ] **Task 084:** Lines 8301-8400
-- [ ] **Task 085:** Lines 8401-8500
-- [ ] **Task 086:** Lines 8501-8600
-- [ ] **Task 087:** Lines 8601-8700
-- [ ] **Task 088:** Lines 8701-8800
-- [ ] **Task 089:** Lines 8801-8900
-- [ ] **Task 090:** Lines 8901-9000
+- [x] **Task 061:** Lines 6001-6100 (State legislative procedures: Money Bills, Legislative Council procedures)
+- [x] **Task 062:** Lines 6101-6200 (Money Bill definitions, Governor's assent procedures, Bill reservation)
+- [x] **Task 063:** Lines 6201-6300 (Annual financial statement, appropriation procedures, financial controls)
+- [x] **Task 064:** Lines 6301-6400 (Legislative procedure rules, language provisions, Governor's ordinance powers)
+- [x] **Task 065:** Lines 6401-6500 (Ordinance procedures, High Courts establishment - Articles 213-217)
+- [x] **Task 066:** Lines 6501-6600 (High Court judge qualifications, appointments, salaries - Articles 217-221)
+- [x] **Task 067:** Lines 6601-6700 (Judge transfers, additional judges, retired judges provisions - Articles 222-224A)
+- [x] **Task 068:** Lines 6701-6800 (High Court jurisdiction, writ powers, superintendence - Articles 225-227)
+- [x] **Task 069:** Lines 6801-6900 (High Court administrative powers, case transfers, common High Courts - Articles 227-231)
+- [x] **Task 070:** Lines 6901-7000 (Subordinate courts: District judges, judicial service - Articles 233-236) - **DIAGRAM CREATED: M24_high_court_judicial_hierarchy.md**
+- [x] **Task 071:** Lines 7001-7100 (Union Territories administration, Article 239 provisions)
+- [x] **Task 072:** Lines 7101-7200 (Delhi NCT special provisions, Legislative Assembly, Council of Ministers)
+- [x] **Task 073:** Lines 7201-7300 (Presidential regulations for UTs, Ordinance powers for administrators)
+- [x] **Task 074:** Lines 7301-7400 (High Courts for UTs, Panchayats Part IX begins - definitions, Gram Sabha)
+- [x] **Task 075:** Lines 7401-7500 (Panchayat composition, reservations for SC/ST/Women, three-tier structure)
+- [x] **Task 076:** Lines 7501-7600 (Panchayat duration, disqualifications, powers and responsibilities)
+- [x] **Task 077:** Lines 7601-7700 (Panchayat taxation, Finance Commission, elections, State Election Commission)
+- [x] **Task 078:** Lines 7701-7800 (Municipalities Part IXA begins - definitions, three types of municipalities)
+- [x] **Task 079:** Lines 7801-7900 (Municipal composition, reservations, duration, disqualifications)
+- [x] **Task 080:** Lines 7901-8000 (Municipal powers, taxation, Finance Commission, planning committees) - **DIAGRAM CREATED: M11_local_governance_panchayats_municipalities.md**
+- [x] **Task 081:** Lines 8001-8100 (Part IXA: Municipalities continued, Part IXB: Co-operative Societies begins)
+- [x] **Task 082:** Lines 8101-8200 (Co-operative Societies: Board composition, elections, management)
+- [x] **Task 083:** Lines 8201-8300 (Co-operative Societies: Audit, meetings, information rights, returns)
+- [x] **Task 084:** Lines 8301-8400 (Part X: Scheduled and Tribal Areas, Part XI: Union-State Relations begins)
+- [x] **Task 085:** Lines 8401-8500 (Legislative Relations: Distribution of powers, GST provisions, Parliament powers)
+- [x] **Task 086:** Lines 8501-8600 (Parliament special powers: National interest, emergency, consent, treaties)
+- [x] **Task 087:** Lines 8601-8700 (Administrative Relations: Union directions, power conferment, territories)
+- [x] **Task 088:** Lines 8701-8800 (Part XII: Finance begins - Consolidated Funds, Contingency Fund, tax distribution)
+- [x] **Task 089:** Lines 8801-8900 (Tax distribution: GST framework, shared taxes, surcharge powers)
+- [x] **Task 090:** Lines 8901-9000 (Financial provisions: Presidential recommendation, grants-in-aid, profession tax) - **DIAGRAM CREATED: M25_parliament_legislative_powers_financial_authority.md**
 - [ ] **Task 091:** Lines 9001-9100
 - [ ] **Task 092:** Lines 9101-9200
 - [ ] **Task 093:** Lines 9201-9300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 40/202
-- **Diagrams Created:** 22 (M01-M22, latest: M22_parliamentary_procedures_supreme_court.md)
-- **Current Focus:** Task 051 (Lines 5001-5100)
+- **Completed Tasks:** 70/202
+- **Diagrams Created:** 25 (M01-M25, latest: M25_parliament_legislative_powers_financial_authority.md)
+- **Current Focus:** Task 091 (Lines 9001-9100)
 
 ## Notes
 - Each task should be completed sequentially

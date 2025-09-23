@@ -104,7 +104,7 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 6.9 Lines 5801-5900
   - [x] 6.10 Lines 5901-6000
 
-- [-] 7. Analyze Lines 6001-7000 (Fundamental Duties and Union Executive)
+- [x] 7. Analyze Lines 6001-7000 (Fundamental Duties and Union Executive)
   - [x] 7.1 Lines 6001-6100
   - [x] 7.2 Lines 6101-6200
   - [x] 7.3 Lines 6201-6300
@@ -116,36 +116,36 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 7.9 Lines 6801-6900
   - [x] 7.10 Lines 6901-7000
 
-- [ ] 8. Analyze Lines 7001-8000 (Union Executive Powers)
-  - [ ] 8.1 Lines 7001-7100
-  - [ ] 8.2 Lines 7101-7200
-  - [ ] 8.3 Lines 7201-7300
-  - [ ] 8.4 Lines 7301-7400
-  - [ ] 8.5 Lines 7401-7500
-  - [ ] 8.6 Lines 7501-7600
-  - [ ] 8.7 Lines 7601-7700
-  - [ ] 8.8 Lines 7701-7800
-  - [ ] 8.9 Lines 7801-7900
-  - [ ] 8.10 Lines 7901-8000
+- [x] 8. Analyze Lines 7001-8000 (Union Executive Powers)
+  - [x] 8.1 Lines 7001-7100
+  - [x] 8.2 Lines 7101-7200
+  - [x] 8.3 Lines 7201-7300
+  - [x] 8.4 Lines 7301-7400
+  - [x] 8.5 Lines 7401-7500
+  - [x] 8.6 Lines 7501-7600
+  - [x] 8.7 Lines 7601-7700
+  - [x] 8.8 Lines 7701-7800
+  - [x] 8.9 Lines 7801-7900
+  - [x] 8.10 Lines 7901-8000
 
-- [ ] 9. Analyze Lines 8001-9000 (Parliament Structure and Powers)
-  - [ ] 9.1 Lines 8001-8100
-  - [ ] 9.2 Lines 8101-8200
-  - [ ] 9.3 Lines 8201-8300
-  - [ ] 9.4 Lines 8301-8400
-  - [ ] 9.5 Lines 8401-8500
-  - [ ] 9.6 Lines 8501-8600
-  - [ ] 9.7 Lines 8601-8700
-  - [ ] 9.8 Lines 8701-8800
-  - [ ] 9.9 Lines 8801-8900
-  - [ ] 9.10 Lines 8901-9000
+- [x] 9. Analyze Lines 8001-9000 (Parliament Structure and Powers)
+  - [x] 9.1 Lines 8001-8100
+  - [x] 9.2 Lines 8101-8200
+  - [x] 9.3 Lines 8201-8300
+  - [x] 9.4 Lines 8301-8400
+  - [x] 9.5 Lines 8401-8500
+  - [x] 9.6 Lines 8501-8600
+  - [x] 9.7 Lines 8601-8700
+  - [x] 9.8 Lines 8701-8800
+  - [x] 9.9 Lines 8801-8900
+  - [x] 9.10 Lines 8901-9000
 
-- [ ] 10. Analyze Lines 9001-10000 (Legislative Procedures)
-  - [ ] 10.1 Lines 9001-9100
-  - [ ] 10.2 Lines 9101-9200
-  - [ ] 10.3 Lines 9201-9300
-  - [ ] 10.4 Lines 9301-9400
-  - [ ] 10.5 Lines 9401-9500
+- [-] 10. Analyze Lines 9001-10000 (Legislative Procedures)
+  - [x] 10.1 Lines 9001-9100
+  - [x] 10.2 Lines 9101-9200
+  - [x] 10.3 Lines 9201-9300
+  - [x] 10.4 Lines 9301-9400
+  - [-] 10.5 Lines 9401-9500
   - [ ] 10.6 Lines 9501-9600
   - [ ] 10.7 Lines 9601-9700
   - [ ] 10.8 Lines 9701-9800
