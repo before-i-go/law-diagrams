@@ -531,26 +531,64 @@ graph TD
 ## 🛠️ Technical Implementation Details
 
 ### Project Methodology
+
+```mermaid
+graph TD
+    Source[PDF Source<br/>Constitution of India] --> Extract[Text Extraction<br/>20,115 lines]
+    Extract --> Tasks[Task Division<br/>202 x 100-line chunks]
+    
+    subgraph "Analysis Process"
+        direction TB
+        Tasks --> Read[Read & Analyze<br/>Constitutional Content]
+        Read --> Identify[Identify Visual<br/>Opportunities]
+        Identify --> Create[Create Mermaid<br/>Diagrams]
+        Create --> Validate[Validate Syntax<br/>& Accuracy]
+    end
+    
+    Validate --> Documentation[Update Documentation<br/>& Progress Tracking]
+    
+    subgraph "Quality Standards"
+        direction LR
+        Documentation --> Mobile[Mobile-Friendly<br/>TD Layout]
+        Documentation --> Consistent[Consistent<br/>Styling]
+        Documentation --> Accurate[Cross-Referenced<br/>Accuracy]
+    end
+    
+    classDef source fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef process fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef quality fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    
+    class Source,Extract,Tasks source
+    class Read,Identify,Create,Validate process
+    class Mobile,Consistent,Accurate quality
+```
+
 - **Systematic Analysis**: 202 tasks covering 20,115 lines of constitutional text
 - **Visual Standards**: All diagrams use mobile-friendly vertical (TD) layouts
-- **Accuracy**: Cross-referenced with original constitutional text
+- **Accuracy**: Cross-referenced with extracted constitutional text
 - **Currency**: Updated to 106th Amendment Act, 2023
+- **Source Processing**: PDF-to-text conversion with manual validation
 
 ### File Organization
 ```
 📁 Project Structure
-├── 📄 README.md (this file)
-├── 📄 MermaidTasks.md (detailed task tracking)
-├── 📁 Mermaid01/ (36 visual diagrams)
-├── 📁 RAWDATA/ (source constitutional text)
-└── 📁 .kiro/ (project specifications)
+├── 📄 README.md (this comprehensive guide)
+├── 📄 MermaidTasks.md (detailed task tracking - 202/202 complete)
+├── 📁 Mermaid01/ (37 visual diagrams M01-M39)
+├── 📁 RAWDATA/ (source constitutional text - 20,115 lines)
+├── 📁 .zzRef/ (original PDF source)
+└── 📁 .kiro/ (project specifications & steering docs)
+    ├── specs/ (project requirements & design)
+    └── steering/ (mermaid syntax guides & patterns)
 ```
 
 ### Diagram Standards
 - **Format**: Mermaid syntax for universal compatibility
-- **Layout**: Vertical (Top-Down) for mobile readability
+- **Layout**: Vertical (Top-Down) for mobile readability  
 - **Naming**: M[number]_[topic].md for easy navigation
 - **Content**: Article references, constitutional significance, visual clarity
+- **Validation**: All diagrams tested for syntax correctness
+- **Styling**: Consistent color schemes and visual patterns
 
 ---
 
@@ -643,6 +681,17 @@ graph TD
 
 ---
 
-**📊 Repository Stats**: 36 diagrams • 20,115 lines analyzed • 202 tasks completed • 100% constitutional coverage
+**📊 Repository Stats**: 37 diagrams • 20,115 lines analyzed • 202 tasks completed • 100% constitutional coverage
+
+```mermaid
+graph LR
+    Stats[Project Statistics] --> Diagrams[37 Mermaid<br/>Diagrams]
+    Stats --> Lines[20,115 Lines<br/>Analyzed]
+    Stats --> Tasks[202 Tasks<br/>Completed]
+    Stats --> Coverage[100% Constitutional<br/>Coverage]
+    
+    classDef stats fill:#e1f5fe,stroke:#01579b,stroke-width:3px
+    class Diagrams,Lines,Tasks,Coverage stats
+```
 
 *Last Updated: Based on Constitution of India as amended by 106th Amendment Act, 2023*

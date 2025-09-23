@@ -296,6 +296,6 @@ All major constitutional sections have been analyzed and visualized:
     - _Requirements: 7.1, 7.2, 7.3, 7.4, 7.5_
 
 
-- [-] Update README with a thorough documentation of what has been covered - with some caveats - a good TOC is important - make it like minto pyramid principle - essence at top and details added layer by layer- also think how shreyas doshi would suggest user journeys in such a brilliant doc so this repo is of maximum use to people - also add a lot of mermaid diagrams in README.md from top itself to make it very interesting to read - use -> .kiro/specs/constitution-mermaid-analysis/tasks.md - > .kiro/steering/mermaid-design-patterns.md -> .kiro/steering/mermaid-status-report.md
+- [x] Update README with a thorough documentation of what has been covered - with some caveats - a good TOC is important - make it like minto pyramid principle - essence at top and details added layer by layer- also think how shreyas doshi would suggest user journeys in such a brilliant doc so this repo is of maximum use to people - also add a lot of mermaid diagrams in README.md from top itself to make it very interesting to read - use -> .kiro/specs/constitution-mermaid-analysis/tasks.md - > .kiro/steering/mermaid-design-patterns.md -> .kiro/steering/mermaid-status-report.md
 .kiro/steering/mermaid-syntax-guide.md ->  .kiro/steering/mermaid-troubleshooting.md. Mention that we converted .zzRef/EnglishCOI_20240716890312078.pdf to a txt - and hence some errors migth be there due to parsing. Put caveats + invite correction.
 
