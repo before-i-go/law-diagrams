@@ -104,17 +104,17 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 6.9 Lines 5801-5900
   - [x] 6.10 Lines 5901-6000
 
-- [ ] 7. Analyze Lines 6001-7000 (Fundamental Duties and Union Executive)
-  - [ ] 7.1 Lines 6001-6100
-  - [ ] 7.2 Lines 6101-6200
-  - [ ] 7.3 Lines 6201-6300
-  - [ ] 7.4 Lines 6301-6400
-  - [ ] 7.5 Lines 6401-6500
-  - [ ] 7.6 Lines 6501-6600
-  - [ ] 7.7 Lines 6601-6700
-  - [ ] 7.8 Lines 6701-6800
-  - [ ] 7.9 Lines 6801-6900
-  - [ ] 7.10 Lines 6901-7000
+- [-] 7. Analyze Lines 6001-7000 (Fundamental Duties and Union Executive)
+  - [x] 7.1 Lines 6001-6100
+  - [x] 7.2 Lines 6101-6200
+  - [x] 7.3 Lines 6201-6300
+  - [x] 7.4 Lines 6301-6400
+  - [x] 7.5 Lines 6401-6500
+  - [x] 7.6 Lines 6501-6600
+  - [x] 7.7 Lines 6601-6700
+  - [x] 7.8 Lines 6701-6800
+  - [x] 7.9 Lines 6801-6900
+  - [x] 7.10 Lines 6901-7000
 
 - [ ] 8. Analyze Lines 7001-8000 (Union Executive Powers)
   - [ ] 8.1 Lines 7001-7100
