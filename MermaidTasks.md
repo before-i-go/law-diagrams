@@ -161,16 +161,16 @@ Each task involves:
 - [x] **Task 138:** Lines 13701-13800 (Union Territories details, Second Schedule: Emoluments provisions)
 - [x] **Task 139:** Lines 13801-13900 (Second Schedule: Presidential, Gubernatorial emoluments and privileges)
 - [x] **Task 140:** Lines 13901-14000 (Second Schedule: Judicial salaries, Supreme Court and High Court provisions) - **DIAGRAM CREATED: M30_indian_states_union_territories_structure.md**
-- [ ] **Task 141:** Lines 14001-14100
-- [ ] **Task 142:** Lines 14101-14200
-- [ ] **Task 143:** Lines 14201-14300
-- [ ] **Task 144:** Lines 14301-14400
-- [ ] **Task 145:** Lines 14401-14500
-- [ ] **Task 146:** Lines 14501-14600
-- [ ] **Task 147:** Lines 14601-14700
-- [ ] **Task 148:** Lines 14701-14800
-- [ ] **Task 149:** Lines 14801-14900
-- [ ] **Task 150:** Lines 14901-15000
+- [x] **Task 141:** Lines 14001-14100 (Second Schedule: High Court judges salaries, Comptroller and Auditor-General provisions)
+- [x] **Task 142:** Lines 14101-14200 (Third Schedule: Forms of Oaths - Ministers, Parliament members, judges)
+- [x] **Task 143:** Lines 14201-14300 (Fourth Schedule: Rajya Sabha seat allocation for states and union territories)
+- [x] **Task 144:** Lines 14301-14400 (Fourth Schedule continued: State-wise seat distribution, amendments)
+- [x] **Task 145:** Lines 14401-14500 (Fifth Schedule: Scheduled Areas administration, Tribes Advisory Council)
+- [x] **Task 146:** Lines 14501-14600 (Fifth Schedule: Governor regulations, Scheduled Areas definition)
+- [x] **Task 147:** Lines 14601-14700 (Sixth Schedule: Autonomous districts, District and Regional Councils)
+- [x] **Task 148:** Lines 14701-14800 (Sixth Schedule: Council composition, elections, powers)
+- [x] **Task 149:** Lines 14801-14900 (Sixth Schedule: Autonomous Council powers, law-making authority)
+- [x] **Task 150:** Lines 14901-15000 (Sixth Schedule: Tribal justice system, village courts) - **DIAGRAM CREATED: M31_judicial_hierarchy_union_territories.md**
 
 ### Tasks 151-201 (Lines 15001-20100)
 - [ ] **Task 151:** Lines 15001-15100
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 120/202
-- **Diagrams Created:** 30 (M01-M30, latest: M30_indian_states_union_territories_structure.md)
-- **Current Focus:** Task 141 (Lines 14001-14100)
+- **Completed Tasks:** 130/202
+- **Diagrams Created:** 31 (M01-M31, latest: M31_judicial_hierarchy_union_territories.md)
+- **Current Focus:** Task 151 (Lines 15001-15100)
 
 ## Notes
 - Each task should be completed sequentially

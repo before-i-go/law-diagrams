@@ -200,28 +200,28 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 14.9 Lines 13801-13900
   - [x] 14.10 Lines 13901-14000
 
-- [-] 15. Analyze Lines 14001-15000 (High Courts and Union Territories)
+- [x] 15. Analyze Lines 14001-15000 (High Courts and Union Territories)
   - [x] 15.1 Lines 14001-14100
-  - [ ] 15.2 Lines 14101-14200
-  - [ ] 15.3 Lines 14201-14300
-  - [ ] 15.4 Lines 14301-14400
-  - [ ] 15.5 Lines 14401-14500
-  - [ ] 15.6 Lines 14501-14600
-  - [ ] 15.7 Lines 14601-14700
-  - [ ] 15.8 Lines 14701-14800
-  - [ ] 15.9 Lines 14801-14900
-  - [ ] 15.10 Lines 14901-15000
+  - [x] 15.2 Lines 14101-14200
+  - [x] 15.3 Lines 14201-14300
+  - [x] 15.4 Lines 14301-14400
+  - [x] 15.5 Lines 14401-14500
+  - [x] 15.6 Lines 14501-14600
+  - [x] 15.7 Lines 14601-14700
+  - [x] 15.8 Lines 14701-14800
+  - [x] 15.9 Lines 14801-14900
+  - [x] 15.10 Lines 14901-15000
 
-- [ ] 16. Analyze Lines 15001-16000 (Union-State Relations)
-  - [ ] 16.1 Lines 15001-15100
-  - [ ] 16.2 Lines 15101-15200
-  - [ ] 16.3 Lines 15201-15300
-  - [ ] 16.4 Lines 15301-15400
-  - [ ] 16.5 Lines 15401-15500
-  - [ ] 16.6 Lines 15501-15600
-  - [ ] 16.7 Lines 15601-15700
-  - [ ] 16.8 Lines 15701-15800
-  - [ ] 16.9 Lines 15801-15900
+- [-] 16. Analyze Lines 15001-16000 (Union-State Relations)
+  - [x] 16.1 Lines 15001-15100
+  - [x] 16.2 Lines 15101-15200
+  - [x] 16.3 Lines 15201-15300
+  - [x] 16.4 Lines 15301-15400
+  - [x] 16.5 Lines 15401-15500
+  - [x] 16.6 Lines 15501-15600
+  - [x] 16.7 Lines 15601-15700
+  - [x] 16.8 Lines 15701-15800
+  - [x] 16.9 Lines 15801-15900
   - [ ] 16.10 Lines 15901-16000
 
 - [ ] 17. Analyze Lines 16001-17000 (Finance and Property)
