@@ -193,16 +193,16 @@ Each task involves:
 - [ ] **Task 168:** Lines 16701-16800
 - [ ] **Task 169:** Lines 16801-16900
 - [ ] **Task 170:** Lines 16901-17000
-- [ ] **Task 171:** Lines 17001-17100
-- [ ] **Task 172:** Lines 17101-17200
-- [ ] **Task 173:** Lines 17201-17300
-- [ ] **Task 174:** Lines 17301-17400
-- [ ] **Task 175:** Lines 17401-17500
-- [ ] **Task 176:** Lines 17501-17600
-- [ ] **Task 177:** Lines 17601-17700
-- [ ] **Task 178:** Lines 17701-17800
-- [ ] **Task 179:** Lines 17801-17900
-- [ ] **Task 180:** Lines 17901-18000
+- [x] **Task 171:** Lines 17001-17100 (Concurrent List entries 1-20: Criminal Law, Marriage, Contracts analyzed)
+- [x] **Task 172:** Lines 17101-17200 (Concurrent List entries 21-40: Education, Forests, Economic Planning analyzed)
+- [x] **Task 173:** Lines 17201-17300 (Concurrent List entries 41-47: Trade Unions, Social Security, Final entries analyzed)
+- [x] **Task 174:** Lines 17301-17400 (Eighth Schedule - Languages Part 1: Official languages 1-22 analyzed)
+- [x] **Task 175:** Lines 17401-17500 (Ninth Schedule continued, Tenth Schedule begins - Anti-Defection Law provisions)
+- [x] **Task 176:** Lines 17501-17600 (Tenth Schedule continued - Anti-Defection Law: merger provisions, exemptions, decision procedures)
+- [x] **Task 177:** Lines 17601-17700 (Tenth Schedule concluded - Anti-Defection rules, Eleventh Schedule begins - Panchayat functions 1-21)
+- [x] **Task 178:** Lines 17701-17800 (Eleventh Schedule completed - Panchayat functions 22-29, Twelfth Schedule - Municipal functions 1-18)
+- [x] **Task 179:** Lines 17801-17900 (Twelfth Schedule continued, 100th Amendment Act 2015 begins - India-Bangladesh territory exchange)
+- [x] **Task 180:** Lines 17901-18000 (100th Amendment Act 2015 - India-Bangladesh territory exchange details) - **DIAGRAM CREATED: M34_constitutional_schedules_overview.md**
 - [ ] **Task 181:** Lines 18001-18100
 - [ ] **Task 182:** Lines 18101-18200
 - [ ] **Task 183:** Lines 18201-18300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 140/202
-- **Diagrams Created:** 32 (M01-M32, latest: M32_union_state_relations_federal_structure.md)
-- **Current Focus:** Task 161 (Lines 16001-16100)
+- **Completed Tasks:** 150/202
+- **Diagrams Created:** 34 (M01-M34, latest: M34_constitutional_schedules_overview.md)
+- **Current Focus:** Task 181 (Lines 18001-18100)
 
 ## Notes
 - Each task should be completed sequentially
