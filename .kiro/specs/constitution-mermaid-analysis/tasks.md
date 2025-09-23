@@ -140,40 +140,40 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 9.9 Lines 8801-8900
   - [x] 9.10 Lines 8901-9000
 
-- [-] 10. Analyze Lines 9001-10000 (Legislative Procedures)
+- [x] 10. Analyze Lines 9001-10000 (Legislative Procedures)
   - [x] 10.1 Lines 9001-9100
   - [x] 10.2 Lines 9101-9200
   - [x] 10.3 Lines 9201-9300
   - [x] 10.4 Lines 9301-9400
-  - [-] 10.5 Lines 9401-9500
-  - [ ] 10.6 Lines 9501-9600
-  - [ ] 10.7 Lines 9601-9700
-  - [ ] 10.8 Lines 9701-9800
-  - [ ] 10.9 Lines 9801-9900
-  - [ ] 10.10 Lines 9901-10000
+  - [x] 10.5 Lines 9401-9500
+  - [x] 10.6 Lines 9501-9600
+  - [x] 10.7 Lines 9601-9700
+  - [x] 10.8 Lines 9701-9800
+  - [x] 10.9 Lines 9801-9900
+  - [x] 10.10 Lines 9901-10000
 
-- [ ] 11. Analyze Lines 10001-11000 (Union Legislative Powers)
-  - [ ] 11.1 Lines 10001-10100
-  - [ ] 11.2 Lines 10101-10200
-  - [ ] 11.3 Lines 10201-10300
-  - [ ] 11.4 Lines 10301-10400
-  - [ ] 11.5 Lines 10401-10500
-  - [ ] 11.6 Lines 10501-10600
-  - [ ] 11.7 Lines 10601-10700
-  - [ ] 11.8 Lines 10701-10800
-  - [ ] 11.9 Lines 10801-10900
-  - [ ] 11.10 Lines 10901-11000
+- [x] 11. Analyze Lines 10001-11000 (Union Legislative Powers)
+  - [x] 11.1 Lines 10001-10100
+  - [x] 11.2 Lines 10101-10200
+  - [x] 11.3 Lines 10201-10300
+  - [x] 11.4 Lines 10301-10400
+  - [x] 11.5 Lines 10401-10500
+  - [x] 11.6 Lines 10501-10600
+  - [x] 11.7 Lines 10601-10700
+  - [x] 11.8 Lines 10701-10800
+  - [x] 11.9 Lines 10801-10900
+  - [x] 11.10 Lines 10901-11000
 
-- [ ] 12. Analyze Lines 11001-12000 (Union Judiciary)
-  - [ ] 12.1 Lines 11001-11100
-  - [ ] 12.2 Lines 11101-11200
-  - [ ] 12.3 Lines 11201-11300
-  - [ ] 12.4 Lines 11301-11400
-  - [ ] 12.5 Lines 11401-11500
-  - [ ] 12.6 Lines 11501-11600
-  - [ ] 12.7 Lines 11601-11700
-  - [ ] 12.8 Lines 11701-11800
-  - [ ] 12.9 Lines 11801-11900
+- [-] 12. Analyze Lines 11001-12000 (Union Judiciary)
+  - [x] 12.1 Lines 11001-11100
+  - [x] 12.2 Lines 11101-11200
+  - [x] 12.3 Lines 11201-11300
+  - [x] 12.4 Lines 11301-11400
+  - [x] 12.5 Lines 11401-11500
+  - [x] 12.6 Lines 11501-11600
+  - [x] 12.7 Lines 11601-11700
+  - [x] 12.8 Lines 11701-11800
+  - [-] 12.9 Lines 11801-11900
   - [ ] 12.10 Lines 11901-12000
 
 - [ ] 13. Analyze Lines 12001-13000 (State Governments)

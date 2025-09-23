@@ -109,28 +109,28 @@ Each task involves:
 - [x] **Task 088:** Lines 8701-8800 (Part XII: Finance begins - Consolidated Funds, Contingency Fund, tax distribution)
 - [x] **Task 089:** Lines 8801-8900 (Tax distribution: GST framework, shared taxes, surcharge powers)
 - [x] **Task 090:** Lines 8901-9000 (Financial provisions: Presidential recommendation, grants-in-aid, profession tax) - **DIAGRAM CREATED: M25_parliament_legislative_powers_financial_authority.md**
-- [ ] **Task 091:** Lines 9001-9100
-- [ ] **Task 092:** Lines 9101-9200
-- [ ] **Task 093:** Lines 9201-9300
-- [ ] **Task 094:** Lines 9301-9400
-- [ ] **Task 095:** Lines 9401-9500
-- [ ] **Task 096:** Lines 9501-9600
-- [ ] **Task 097:** Lines 9601-9700
-- [ ] **Task 098:** Lines 9701-9800
-- [ ] **Task 099:** Lines 9801-9900
-- [ ] **Task 100:** Lines 9901-10000
+- [x] **Task 091:** Lines 9001-9100 (GST Council structure, Finance Commission provisions)
+- [x] **Task 092:** Lines 9101-9200 (GST Council decision-making, Finance Commission functions)
+- [x] **Task 093:** Lines 9201-9300 (Financial provisions, taxation exemptions, property succession)
+- [x] **Task 094:** Lines 9301-9400 (Property succession, borrowing provisions, contracts)
+- [x] **Task 095:** Lines 9401-9500 (Property rights, territorial waters, executive powers)
+- [x] **Task 096:** Lines 9501-9600 (Contracts, suits, property rights, trade and commerce begins)
+- [x] **Task 097:** Lines 9601-9700 (Services under Union and States, recruitment, tenure)
+- [x] **Task 098:** Lines 9701-9800 (All-India services, Public Service Commission establishment)
+- [x] **Task 099:** Lines 9801-9900 (PSC appointments, tenure, removal procedures)
+- [x] **Task 100:** Lines 9901-10000 (PSC functions, consultation requirements, regulations) - **DIAGRAM CREATED: M26_constitutional_commissions_gst_council.md**
 
 ### Tasks 101-150 (Lines 10001-15000)
-- [ ] **Task 101:** Lines 10001-10100
-- [ ] **Task 102:** Lines 10101-10200
-- [ ] **Task 103:** Lines 10201-10300
-- [ ] **Task 104:** Lines 10301-10400
-- [ ] **Task 105:** Lines 10401-10500
-- [ ] **Task 106:** Lines 10501-10600
-- [ ] **Task 107:** Lines 10601-10700
-- [ ] **Task 108:** Lines 10701-10800
-- [ ] **Task 109:** Lines 10801-10900
-- [ ] **Task 110:** Lines 10901-11000
+- [x] **Task 101:** Lines 10001-10100 (PSC regulations, Part XIVA Tribunals begin - Administrative tribunals)
+- [x] **Task 102:** Lines 10101-10200 (Tribunals for other matters, Part XV Elections - Election Commission)
+- [x] **Task 103:** Lines 10201-10300 (Election Commission structure, electoral rolls, adult suffrage)
+- [x] **Task 104:** Lines 10301-10400 (Parliament/State election powers, Part XVI Special Provisions - SC/ST reservations)
+- [x] **Task 105:** Lines 10401-10500 (Women reservations 106th Amendment, Anglo-Indian representation)
+- [x] **Task 106:** Lines 10501-10600 (Reservation time limits, SC/ST service claims, Anglo-Indian services)
+- [x] **Task 107:** Lines 10601-10700 (Educational grants, National Commission for Scheduled Castes)
+- [x] **Task 108:** Lines 10701-10800 (NCSC powers, National Commission for Scheduled Tribes)
+- [x] **Task 109:** Lines 10801-10900 (NCST powers, National Commission for Backward Classes)
+- [x] **Task 110:** Lines 10901-11000 (NCBC powers, SC/ST definitions, Part XVII Official Language) - **DIAGRAM CREATED: M27_constitutional_institutions_elections.md**
 - [ ] **Task 111:** Lines 11001-11100
 - [ ] **Task 112:** Lines 11101-11200
 - [ ] **Task 113:** Lines 11201-11300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 70/202
-- **Diagrams Created:** 25 (M01-M25, latest: M25_parliament_legislative_powers_financial_authority.md)
-- **Current Focus:** Task 091 (Lines 9001-9100)
+- **Completed Tasks:** 90/202
+- **Diagrams Created:** 27 (M01-M27, latest: M27_constitutional_institutions_elections.md)
+- **Current Focus:** Task 111 (Lines 11001-11100)
 
 ## Notes
 - Each task should be completed sequentially
