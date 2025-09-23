@@ -173,16 +173,16 @@ Each task involves:
 - [x] **Task 150:** Lines 14901-15000 (Sixth Schedule: Tribal justice system, village courts) - **DIAGRAM CREATED: M31_judicial_hierarchy_union_territories.md**
 
 ### Tasks 151-201 (Lines 15001-20100)
-- [ ] **Task 151:** Lines 15001-15100
-- [ ] **Task 152:** Lines 15101-15200
-- [ ] **Task 153:** Lines 15201-15300
-- [ ] **Task 154:** Lines 15301-15400
-- [ ] **Task 155:** Lines 15401-15500
-- [ ] **Task 156:** Lines 15501-15600
-- [ ] **Task 157:** Lines 15601-15700
-- [ ] **Task 158:** Lines 15701-15800
-- [ ] **Task 159:** Lines 15801-15900
-- [ ] **Task 160:** Lines 15901-16000
+- [x] **Task 151:** Lines 15001-15100 (Sixth Schedule: Judicial powers of District/Regional Councils)
+- [x] **Task 152:** Lines 15101-15200 (Sixth Schedule: District Fund, taxation powers, revenue assessment)
+- [x] **Task 153:** Lines 15201-15300 (Sixth Schedule: Money-lending regulation, trading control by non-tribals)
+- [x] **Task 154:** Lines 15301-15400 (Sixth Schedule: Application of Acts - Assam, Meghalaya provisions)
+- [x] **Task 155:** Lines 15401-15500 (Sixth Schedule: Tripura, Mizoram Act applications, Presidential powers)
+- [x] **Task 156:** Lines 15501-15600 (Sixth Schedule: Governor oversight, Council dissolution powers)
+- [x] **Task 157:** Lines 15601-15700 (Sixth Schedule: Electoral provisions, transitional arrangements)
+- [x] **Task 158:** Lines 15701-15800 (Sixth Schedule: Tribal areas table, district specifications)
+- [x] **Task 159:** Lines 15801-15900 (Sixth Schedule: Mizoram provisions, discretionary powers)
+- [x] **Task 160:** Lines 15901-16000 (Sixth Schedule: Governor discretion, Seventh Schedule begins - Union List) - **DIAGRAM CREATED: M32_union_state_relations_federal_structure.md**
 - [ ] **Task 161:** Lines 16001-16100
 - [ ] **Task 162:** Lines 16101-16200
 - [ ] **Task 163:** Lines 16201-16300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 130/202
-- **Diagrams Created:** 31 (M01-M31, latest: M31_judicial_hierarchy_union_territories.md)
-- **Current Focus:** Task 151 (Lines 15001-15100)
+- **Completed Tasks:** 140/202
+- **Diagrams Created:** 32 (M01-M32, latest: M32_union_state_relations_federal_structure.md)
+- **Current Focus:** Task 161 (Lines 16001-16100)
 
 ## Notes
 - Each task should be completed sequentially
