@@ -188,7 +188,7 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 13.9 Lines 12801-12900
   - [x] 13.10 Lines 12901-13000
 
-- [-] 14. Analyze Lines 13001-14000 (State Executive and Legislative Powers)
+- [x] 14. Analyze Lines 13001-14000 (State Executive and Legislative Powers)
   - [x] 14.1 Lines 13001-13100
   - [x] 14.2 Lines 13101-13200
   - [x] 14.3 Lines 13201-13300
@@ -198,10 +198,10 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 14.7 Lines 13601-13700
   - [x] 14.8 Lines 13701-13800
   - [x] 14.9 Lines 13801-13900
-  - [-] 14.10 Lines 13901-14000
+  - [x] 14.10 Lines 13901-14000
 
-- [ ] 15. Analyze Lines 14001-15000 (High Courts and Union Territories)
-  - [ ] 15.1 Lines 14001-14100
+- [-] 15. Analyze Lines 14001-15000 (High Courts and Union Territories)
+  - [x] 15.1 Lines 14001-14100
   - [ ] 15.2 Lines 14101-14200
   - [ ] 15.3 Lines 14201-14300
   - [ ] 15.4 Lines 14301-14400

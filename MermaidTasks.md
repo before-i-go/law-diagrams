@@ -151,16 +151,16 @@ Each task involves:
 - [x] **Task 128:** Lines 12701-12800 (Sikkim provisions continued, Mizoram, Arunachal Pradesh provisions)
 - [x] **Task 129:** Lines 12801-12900 (Arunachal Pradesh, Goa, Karnataka special provisions)
 - [x] **Task 130:** Lines 12901-13000 (Continuance of existing laws, adaptation powers, transitional provisions) - **DIAGRAM CREATED: M29_special_state_provisions_structure.md**
-- [ ] **Task 131:** Lines 13001-13100
-- [ ] **Task 132:** Lines 13101-13200
-- [ ] **Task 133:** Lines 13201-13300
-- [ ] **Task 134:** Lines 13301-13400
-- [ ] **Task 135:** Lines 13401-13500
-- [ ] **Task 136:** Lines 13501-13600
-- [ ] **Task 137:** Lines 13601-13700
-- [ ] **Task 138:** Lines 13701-13800
-- [ ] **Task 139:** Lines 13801-13900
-- [ ] **Task 140:** Lines 13901-14000
+- [x] **Task 131:** Lines 13001-13100 (Transitional provisions: Public Service Commissions, Andhra Pradesh Legislative Assembly)
+- [x] **Task 132:** Lines 13101-13200 (Constitutional commencement, Hindi language provisions, repeals)
+- [x] **Task 133:** Lines 13201-13300 (First Schedule: States and territories - Andhra Pradesh, Assam, Bihar)
+- [x] **Task 134:** Lines 13301-13400 (First Schedule continued: Tamil Nadu, Maharashtra, Karnataka territories)
+- [x] **Task 135:** Lines 13401-13500 (First Schedule continued: Uttar Pradesh, West Bengal territories)
+- [x] **Task 136:** Lines 13501-13600 (First Schedule continued: Manipur, Tripura, Meghalaya, Sikkim, Mizoram, Arunachal Pradesh, Goa)
+- [x] **Task 137:** Lines 13601-13700 (First Schedule: Final states, Union Territories section begins)
+- [x] **Task 138:** Lines 13701-13800 (Union Territories details, Second Schedule: Emoluments provisions)
+- [x] **Task 139:** Lines 13801-13900 (Second Schedule: Presidential, Gubernatorial emoluments and privileges)
+- [x] **Task 140:** Lines 13901-14000 (Second Schedule: Judicial salaries, Supreme Court and High Court provisions) - **DIAGRAM CREATED: M30_indian_states_union_territories_structure.md**
 - [ ] **Task 141:** Lines 14001-14100
 - [ ] **Task 142:** Lines 14101-14200
 - [ ] **Task 143:** Lines 14201-14300
@@ -259,9 +259,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 110/202
-- **Diagrams Created:** 29 (M01-M29, latest: M29_special_state_provisions_structure.md)
-- **Current Focus:** Task 131 (Lines 13001-13100)
+- **Completed Tasks:** 120/202
+- **Diagrams Created:** 30 (M01-M30, latest: M30_indian_states_union_territories_structure.md)
+- **Current Focus:** Task 141 (Lines 14001-14100)
 
 ## Notes
 - Each task should be completed sequentially
