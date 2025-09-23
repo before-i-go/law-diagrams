@@ -212,7 +212,7 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 15.9 Lines 14801-14900
   - [x] 15.10 Lines 14901-15000
 
-- [-] 16. Analyze Lines 15001-16000 (Union-State Relations)
+- [x] 16. Analyze Lines 15001-16000 (Union-State Relations)
   - [x] 16.1 Lines 15001-15100
   - [x] 16.2 Lines 15101-15200
   - [x] 16.3 Lines 15201-15300
@@ -222,7 +222,7 @@ This implementation plan provides 21 main tasks to systematically analyze the Co
   - [x] 16.7 Lines 15601-15700
   - [x] 16.8 Lines 15701-15800
   - [x] 16.9 Lines 15801-15900
-  - [ ] 16.10 Lines 15901-16000
+  - [x] 16.10 Lines 15901-16000
 
 - [ ] 17. Analyze Lines 16001-17000 (Finance and Property)
   - [ ] 17.1 Lines 16001-16100
