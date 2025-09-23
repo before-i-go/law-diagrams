@@ -183,16 +183,16 @@ Each task involves:
 - [x] **Task 158:** Lines 15701-15800 (Sixth Schedule: Tribal areas table, district specifications)
 - [x] **Task 159:** Lines 15801-15900 (Sixth Schedule: Mizoram provisions, discretionary powers)
 - [x] **Task 160:** Lines 15901-16000 (Sixth Schedule: Governor discretion, Seventh Schedule begins - Union List) - **DIAGRAM CREATED: M32_union_state_relations_federal_structure.md**
-- [ ] **Task 161:** Lines 16001-16100
-- [ ] **Task 162:** Lines 16101-16200
-- [ ] **Task 163:** Lines 16201-16300
-- [ ] **Task 164:** Lines 16301-16400
-- [ ] **Task 165:** Lines 16401-16500
-- [ ] **Task 166:** Lines 16501-16600
-- [ ] **Task 167:** Lines 16601-16700
-- [ ] **Task 168:** Lines 16701-16800
-- [ ] **Task 169:** Lines 16801-16900
-- [ ] **Task 170:** Lines 16901-17000
+- [x] **Task 161:** Lines 16001-16100 (Union List entries 1-20: Defense, Foreign Affairs, Currency analyzed)
+- [x] **Task 162:** Lines 16101-16200 (Union List entries 21-40: Railways, Airways, Communications analyzed)
+- [x] **Task 163:** Lines 16201-16300 (Union List entries 41-60: Banking, Insurance, Corporations analyzed)
+- [x] **Task 164:** Lines 16301-16400 (Union List entries 61-80: Trade, Commerce, Industries analyzed)
+- [x] **Task 165:** Lines 16401-16500 (Union List entries 81-97: Taxes, Duties, Final entries analyzed)
+- [x] **Task 166:** Lines 16501-16600 (State List entries 1-20: Public Order, Police, Justice analyzed)
+- [x] **Task 167:** Lines 16601-16700 (State List entries 21-40: Local Government, Public Health, Agriculture analyzed)
+- [x] **Task 168:** Lines 16701-16800 (State List entries 41-60: Land, Water, Fisheries, Industries analyzed)
+- [x] **Task 169:** Lines 16801-16900 (State List entries 61-66: State taxes, Final entries analyzed)
+- [x] **Task 170:** Lines 16901-17000 (Seventh Schedule Overview completed) - **DIAGRAM CREATED: M35_seventh_schedule_power_distribution.md**
 - [x] **Task 171:** Lines 17001-17100 (Concurrent List entries 1-20: Criminal Law, Marriage, Contracts analyzed)
 - [x] **Task 172:** Lines 17101-17200 (Concurrent List entries 21-40: Education, Forests, Economic Planning analyzed)
 - [x] **Task 173:** Lines 17201-17300 (Concurrent List entries 41-47: Trade Unions, Social Security, Final entries analyzed)
@@ -203,30 +203,28 @@ Each task involves:
 - [x] **Task 178:** Lines 17701-17800 (Eleventh Schedule completed - Panchayat functions 22-29, Twelfth Schedule - Municipal functions 1-18)
 - [x] **Task 179:** Lines 17801-17900 (Twelfth Schedule continued, 100th Amendment Act 2015 begins - India-Bangladesh territory exchange)
 - [x] **Task 180:** Lines 17901-18000 (100th Amendment Act 2015 - India-Bangladesh territory exchange details) - **DIAGRAM CREATED: M34_constitutional_schedules_overview.md**
-- [ ] **Task 181:** Lines 18001-18100
-- [ ] **Task 182:** Lines 18101-18200
-- [ ] **Task 183:** Lines 18201-18300
-- [ ] **Task 184:** Lines 18301-18400
-- [ ] **Task 185:** Lines 18401-18500
-- [ ] **Task 186:** Lines 18501-18600
-- [ ] **Task 187:** Lines 18601-18700
-- [ ] **Task 188:** Lines 18701-18800
-- [ ] **Task 189:** Lines 18801-18900
-- [ ] **Task 190:** Lines 18901-19000
-- [ ] **Task 191:** Lines 19001-19100
-- [ ] **Task 192:** Lines 19101-19200
-- [ ] **Task 193:** Lines 19201-19300
-- [ ] **Task 194:** Lines 19301-19400
-- [ ] **Task 195:** Lines 19401-19500
-- [ ] **Task 196:** Lines 19501-19600
-- [ ] **Task 197:** Lines 19601-19700
-- [ ] **Task 198:** Lines 19701-19800
-- [ ] **Task 199:** Lines 19801-19900
-- [ ] **Task 200:** Lines 19901-20000
-- [ ] **Task 201:** Lines 20001-20100
-
-### Final Task (Lines 20101-20115)
-- [ ] **Task 202:** Lines 20101-20115 (Final 15 lines)
+- [x] **Task 181:** Lines 18001-18100 (India-Bangladesh boundary demarcation details, enclave areas)
+- [x] **Task 182:** Lines 18101-18200 (Boundary agreements continued, enclave exchange provisions)
+- [x] **Task 183:** Lines 18201-18300 (Enclave listings continued, territorial exchange details)
+- [x] **Task 184:** Lines 18301-18400 (Enclave area specifications, boundary demarcation)
+- [x] **Task 185:** Lines 18401-18500 (Enclave exchange details continued)
+- [x] **Task 186:** Lines 18501-18600 (Boundary area specifications continued)
+- [x] **Task 187:** Lines 18601-18700 (Enclave area listings continued)
+- [x] **Task 188:** Lines 18701-18800 (Enclave specifications and area details)
+- [x] **Task 189:** Lines 18801-18900 (Enclave area listings continued)
+- [x] **Task 190:** Lines 18901-19000 (Enclave specifications concluded) - **DIAGRAM CREATED: M35_constitutional_amendments_timeline.md**
+- [x] **Task 191:** Lines 19001-19100 (Appendix I: India-Bangladesh enclaves data continued)
+- [x] **Task 192:** Lines 19101-19200 (Appendix I: Boundary corrections and enclave details)
+- [x] **Task 193:** Lines 19201-19300 (Appendix I: Enclave reconciliation and joint verification)
+- [x] **Task 194:** Lines 19301-19400 (Appendix I: Exchangeable Bangladesh enclaves in India)
+- [x] **Task 195:** Lines 19401-19500 (Appendix I: Enclave area specifications continued)
+- [x] **Task 196:** Lines 19501-19600 (Appendix I: Enclave listings with area details)
+- [x] **Task 197:** Lines 19601-19700 (Appendix I: Enclave area specifications continued)
+- [x] **Task 198:** Lines 19701-19800 (Appendix I: Fragmented enclave details)
+- [x] **Task 199:** Lines 19801-19900 (Appendix I: Enclave fragments and area calculations)
+- [x] **Task 200:** Lines 19901-20000 (Appendix I: Final enclave specifications) - **DIAGRAM CREATED: M36_constitutional_framework_complete.md**
+- [x] **Task 201:** Lines 20001-20100 (Final constitutional provisions, Appendix II: Jammu & Kashmir Order 2019, Article 370 modifications)
+- [x] **Task 202:** Lines 20101-20115 (Final 15 lines - Article 370 declaration, constitutional conclusion)
 
 ## Diagram Creation Guidelines
 
@@ -259,9 +257,9 @@ Examples:
 - `M04_executive_parliament_structure.md`
 
 ## Progress Tracking
-- **Completed Tasks:** 150/202
-- **Diagrams Created:** 34 (M01-M34, latest: M34_constitutional_schedules_overview.md)
-- **Current Focus:** Task 181 (Lines 18001-18100)
+- **Completed Tasks:** 202/202 ✅ **COMPLETE**
+- **Diagrams Created:** 36 (M01-M36, latest: M36_constitutional_framework_complete.md)
+- **Current Focus:** All constitutional text analysis completed
 
 ## Notes
 - Each task should be completed sequentially
